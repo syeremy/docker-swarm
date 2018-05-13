@@ -1,0 +1,315 @@
+    1  su root
+    2  s
+    3  sudo -i
+    4  cd etc
+    5  cd /etc
+    6  sudo poweroff
+    7  docker ps
+    8  ifconfig
+    9  sudo poweroff
+   10  sudo hostname docker-m1
+   11  man hostname
+   12  shutdown -r now
+   13  LimaPeru
+   14  reboot
+   15  poweroff
+   16  sudo shutdown -r now
+   17  ifconfig
+   18  sudo apt-get install openssh-server
+   19  hostname
+   20  sudo vim /etc/hostname
+   21  sudo shutdown -r now
+   22  sudo turnoff
+   23  sudo poweroff 
+   24  docker ps
+   25  sudo apt-get remove docker docker-engine docker.io
+   26  sudo apt-get update
+   27  sudo apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
+   28  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   29  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   30  sudo apt-key fingerprint 0EBFCD88
+   31  curl -fsSL https://download.docker.com/linux/ubuntu/gpg 
+   32  sudo apt-key add -
+   33  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   34  sudo vim /etc/hosts
+   35  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   36  sudo apt-key fingerprint 0EBFCD88
+   37  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   38     $(lsb_release -cs) \
+   39     stable"
+   40  sudo apt-get update
+   41  sudo apt-get install docker-ce
+   42  apt-cache madison docker-ce
+   43  docker info
+   44  sudo docker info
+   45  sudo groupadd docker
+   46  sudo usermod -aG docker $USER
+   47  docker ps
+   48  sudo shutdown -r now
+   49  ifconfig
+   50  apt-get update
+   51  sudo apt-get update
+   52  docker ps
+   53  docker info
+   54  docker run --name test nginx
+   55  docker ps
+   56  docker ps -a
+   57  docker container prune
+   58  dicker image prune
+   59  docker image prune
+   60  docker image ls
+   61  docker image rm -f ae513a47849c
+   62  docker container ps -a
+   63  docker run -d hello-world
+   64  l 
+   65  ls
+   66  docker ps
+   67  docker ps -a
+   68  docker container rm ae513a47849c
+   69  docker ps -a
+   70  docker container rm -f ee65f8ac16a4
+   71  docker image ps
+   72  docker image ls
+   73  docker rm -f e38bc07ac18e
+   74  docker image rm -f e38bc07ac18e
+   75  docker run --name test -d -p 8080:80 nginx
+   76  docker ps
+   77  docker rm 1d83f341a45d
+   78  docker rm -f 1d83f341a45d
+   79  docker image ls
+   80  docker rm -f ae513a47849c
+   81  docker image rm -f ae513a47849c
+   82  docker image ls
+   83  shutdown -r now
+   84  sudo shutdown -r now
+   85  poweroff
+   86  docker swarm init
+   87  docker info | grep swarm
+   88  docker info | grep Swarm
+   89  docker swarm join-token manager
+   90  docker node ls
+   91  docker swarm node ls
+   92  docker node ls
+   93  docker service create --name viz -p 8090:8080 --mount=type=bind,src=/var/run/docker.sock,dst=/var/run/docker.sock --constraint=node.role==manager dockersamples/visualizer
+   94  docker ps
+   95  docker service
+   96  docker service ps
+   97  docker service ps viz
+   98  docker service ps
+   99  docker task ls
+  100  docker ?
+  101  docker service ps viz
+  102  docker ps
+  103  docker node ls
+  104  docker node ps
+  105  docker  node ps
+  106  docker  node ls
+  107  docker node ps m1
+  108  docker  node ps docker-m1
+  109  docker  node ps docker-m2
+  110  docker  node ps docker-m3
+  111  docker service scale viz=3
+  112  docker service create --name customer-api --replicas=6 -p 3000:3000 swarmgs/customer
+  113  docker service ps customer-api
+  114  docker service scale customer-api=7
+  115  history
+  116  docker network ls
+  117  docker service scale viz=2
+  118  docker service scale viz=1
+  119  docker service create --mode=global --name cadvisor   --volume=/:/rootfs:ro   --volume=/var/run:/var/run:rw   --volume=/sys:/sys:ro   --volume=/var/lib/docker/:/var/lib/docker:ro   --volume=/dev/disk/:/dev/disk:ro   --publish=8080:8080   --detach=true   --name=cadvisor docker service create --mode=global   --volume=/:/rootfs:ro   --volume=/var/run:/var/run:rw   --volume=/sys:/sys:ro   --volume=/var/lib/docker/:/var/lib/docker:ro   --volume=/dev/disk/:/dev/disk:ro   --publish=8080:8080   --detach=true   --name=cadvisor 
+  120  docker service create --mode=global --name cadvisor   --mount type=bind,source=/,target=/rootfs,readonly=true   --mount type=bind,source=/var/run,target=/var/run,readonly=false   --mount type=bind,source=/sys,target=/sys,readonly=true   --mount type=bind,source=/var/lib/docker/,target=/var/lib/docker,readonly=true   google/cadvisor:latest 
+  121  docker service ?
+  122  docker service rm cadvisor
+  123  docker service create --mode=global --name cadvisor   --mount type=bind,source=/,target=/rootfs,readonly=true   --mount type=bind,source=/var/run,target=/var/run,readonly=false   --mount type=bind,source=/sys,target=/sys,readonly=true   --mount type=bind,source=/var/lib/docker/,target=/var/lib/docker,readonly=true  -p 8080:8080  google/cadvisor:latest 
+  124  docker service update --publish-rm 8080 cadvisor
+  125  sudo apt-get install jq
+  126  docker service update --publish-add mode=host,published=8080,target=8080 cadvisor
+  127  docker service --name random -p target = 80 nginx
+  128  docker service create --name random -p target = 80 nginx
+  129  docker service create --name random -p target=80 nginx
+  130  docker service inspect random 
+  131  docker service inspect random  --pretty
+  132  docker inspect  --format='{{.LogPath}}' self
+  133  docker node inspect  --format='{{.LogPath}}' self
+  134  docker node inspect  self
+  135  docker node inspect  --format='{{.ID}}' self
+  136  docker --info
+  137  docker info
+  138  docker info  --format='{{.Swarm}}' self
+  139  docker info  --format='{{.Swarm}}' 
+  140  docker info  --format='{{Swarm}}' 
+  141  docker service create --name pay -p 3001:3000 swarmgs/payroll:1
+  142  docker service scale pay=5
+  143  docker service update --image swarmgs/payroll:2 pay
+  144  docker service ps pay
+  145  docker service update --image swarmgs/payroll:3 --update-delay=5s  pay
+  146  docker service ps pay
+  147  apt-get install watch
+  148  sudo apt-get install watch
+  149  watch docker service ls
+  150  watch -d  docker service ls
+  151  watch -d n=1s  docker service ls
+  152  watch -d n=1s  docker service ps pay
+  153  docker service inspect pay | jq .[].UpdateStatus
+  154  docker service inspect pay | jq .[]
+  155  docker service inspect pay | jq 
+  156  docker service inspect pay | jq .
+  157  docker service inspect pay | jq .[].UpdateStatus
+  158  docker service ps
+  159  docker service ls
+  160  docker service update --force pay
+  161  docker ps
+  162  docker exec -it f01f5cb8f937 sh
+  163  docker service ls
+  164  docker service create --name balance -p 5000:3000 swarmgs/balance
+  165  docker service logs balance
+  166  docker service ls
+  167  docker network create -d overlay --subnet=10.0.9.0/24 backend
+  168  docker network ls
+  169  docker services ls
+  170  docker service ls
+  171  docker service update -h
+  172  docker service ls
+  173  docker inspect vysxca8fkkgu | jq
+  174  docker inspect vysxca8fkkgu | jq .Endpoint
+  175  docker inspect vysxca8fkkgu | jq .[]Endpoint
+  176  docker inspect vysxca8fkkgu | jq Endpoint
+  177  docker service ls
+  178  docker service update --network-add backend balance
+  179  docker service ls
+  180  docker inspect vysxca8fkkgu | jq
+  181  docker service update --network-add customer-api  balance
+  182  docker service update --network-add backend customer-api 
+  183  docker serive update --env-add MYWEB_CUSTOMER_API=customer-api=3000 balance
+  184  docker serice update --env-add MYWEB_CUSTOMER_API=customer-api=3000 balance
+  185  docker service update --env-add MYWEB_CUSTOMER_API=customer-api=3000 balance
+  186  docker service scale=0 balance
+  187  docker service scale balance=0
+  188  docker service scale balance=
+  189  docker service scale balance=1
+  190  docker service ps balance
+  191  docker service scale balance=0
+  192  docker service scale balance=1
+  193  docker service logs balance
+  194  docker service ls
+  195  docker service ps balance
+  196  docker service logs balance
+  197  docker service scale balance=0
+  198  docker service logs balance
+  199  docker service ps balance
+  200  docker service scale balance=1
+  201  docker service ps balance
+  202  docker service logs balance
+  203  docker service logs -h
+  204  docker service logs balance -f
+  205  docker service update --env-add MYWEB_CUSTOMER_API=customer-api:3000   balance
+  206  docker service inspect balance | jq .[].UpdateStatus
+  207  docker service inspect balance | jq
+  208  docker service inspect balance | jq .[].RestartPolicy
+  209  history
+  210  ip
+  211  ip s a
+  212  ip s a 
+  213  ip a s
+  214  ls
+  215  ls la
+  216  ls -la
+  217  mkdir yerr
+  218  rm -rf yerr
+  219  ls
+  220  ls -la
+  221  mkdir yere
+  222  ls -la
+  223  cd yere/
+  224  ls
+  225  docker services ls
+  226  docker service ls
+  227  docker service rm viz
+  228  vim viz.yml 
+  229  docker service ls
+  230  docker stack deploy -c viz.yml viz
+  231  docker service ls
+  232  docker stack ls
+  233  docker stack service viz
+  234  docker stack services viz
+  235  docker stack ps vi
+  236  docker stack ps viz
+  237  docker stack rm viz
+  238  vim viz.yml 
+  239  docker stack deploy -c viz.yml viz
+  240  vim viz.yml 
+  241  docker stack deploy -c viz.yml viz
+  242  vim viz.yml 
+  243  docker stack deploy -c viz.yml viz
+  244  vim viz.yml 
+  245  docker stack deploy -c viz.yml viz
+  246  docker stack services viz
+  247  docker stack ps viz
+  248  docker stack rm viz
+  249  docker stack deploy -c viz.yml viz
+  250  docker stack rm viz
+  251  vim viz.yml 
+  252  docker stack deploy -c viz.yml viz
+  253  docker stack ps viz
+  254  docker stack services viz
+  255  ls
+  256  docker stack deploy -c apis.yml apis
+  257  docker service ls
+  258  docker service rm apis_customer  apis_customer ustomer-api
+  259  docker service rm balance
+  260  docker service rm customer-api
+  261  docker service ls
+  262  docker service rm random
+  263  docker service ps
+  264  docker stack deploy -c apis.yml apis
+  265  docker stack ps apis
+  266  docker stack deploy -c cowsay.yml cow
+  267  docker stack ps cow
+  268  docker stack ls
+  269  docker stack services cow
+  270  docker stack ps cow
+  271  docker exec -it $(docker ps -f name=cow -q) bs
+  272  docker exec -it $(docker ps -f name=cow -q) sh
+  273  poweroff
+  274  sudo poweroff
+  275  ifconfig
+  276  docker node ls
+  277  echo mysupersecretpasswork | docker secret create mysql_root_pass
+  278  echo mysupersecretpasswork | docker secret create mysql_root_pass -
+  279  docker secret ls
+  280  ls -l
+  281  ls -la
+  282  cd yere/
+  283  docker stack deploy -c mysql_with_secrets.yml mysql
+  284  docker secret ps
+  285  docker secret ls
+  286  vim mysql_with_secrets.yml 
+  287  docker stack deploy -c mysql_with_secrets.yml mysql
+  288  vim mysql_with_secrets.yml 
+  289  docker secret ls
+  290  vim mysql_with_secrets.yml 
+  291  docker stack deploy -c mysql_with_secrets.yml mysql
+  292  vim mysql_with_secrets.yml 
+  293  docker stack deploy -c mysql_with_secrets.yml mysql
+  294  vim mysql_with_secrets.yml 
+  295  docker stack deploy -c mysql_with_secrets.yml mysql
+  296  vim mysql_with_secrets.yml 
+  297  docker stack deploy -c mysql_with_secrets.yml mysql
+  298  vim mysql_with_secrets.yml 
+  299  docker stack deploy -c mysql_with_secrets.yml mysql
+  300  vim mysql_with_secrets.yml 
+  301  docker stack deploy -c mysql_with_secrets.yml mysql
+  302  docker stack ps mysql 
+  303  docker service logs mysql_mysql.1
+  304  docker service logs mysql_mysql
+  305  vim mysql_with_secrets.yml 
+  306  docker stack deploy -c mysql_with_secrets.yml mysql
+  307  docker stack ps mysql
+  308  docker exec -it 2huoy5vvnawb sh
+  309  docker sp
+  310  docker ps
+  311  vim mysql_with_secrets.yml 
+  312  docker stack deploy -c mysql_with_secrets.yml mysql
+  313  docker service logs mysql_mysql
+  314  history
+  315  history > history.txt

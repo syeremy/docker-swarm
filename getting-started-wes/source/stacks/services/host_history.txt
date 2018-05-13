@@ -1,0 +1,2642 @@
+    1  pwd
+    2  curl -s "https://get.sdkman.io" | bash
+    3  source "$HOME/.sdkman/bin/sdkman-init.sh"
+    4  sdk version
+    5  sdk install java
+    6  sdk java list
+    7  sdk list
+    8  sdl java list
+    9  sdk java list
+   10  sdk list java
+   11  sdk install java 8u151-oracle
+   12  sdk list java
+   13  sdk uninstall java 8u152-zulu
+   14  sdk list java
+   15  java -v
+   16  java
+   17  java -version
+   18  code
+   19  cd ~
+   20  code .bashrc
+   21  code ~/.zshrc
+   22  git clone https://github.com/powerline/fonts.git
+   23  cd fonts
+   24  ./install.sh
+   25  cd ..
+   26  rm -rf fonts
+   27  mkdir dev
+   28  cd dev
+   29  java --version
+   30  java -version
+   31  java -ve
+   32  java -v
+   33  sdk list maven
+   34  sdk install maven
+   35  sdk list maven
+   36  git
+   37  $ZSH_THEME
+   38  echo
+   39  echo %ZSH_THEME
+   40  printenv
+   41  echo %M2_Home
+   42  echo %M2_HOME
+   43  echo $M2_HOME
+   44  mvn
+   45  mvn -version
+   46  echo $MAVEN_HOME
+   47  printenv
+   48  echo $JAVA_HOME
+   49  touch .bash_profile
+   50  code .bash_profile
+   51  /Users/syeremy/.sdkman/bin/sdkman-init.sh; exit
+   52  cd .sdkman/candidates/maven/current
+   53  pwd
+   54  history
+   55  printenv
+   56  echo $M2_HOME
+   57  cho $M2_HOME
+   58  echo $M2_HOME
+   59  echo $PATH
+   60  echo $M2_HOME
+   61  printenv
+   62  echo $M2
+   63  echo $M2_home
+   64  echo $M2_HOME
+   65  printenv
+   66  dotnet
+   67  dotnet new
+   68  dotnet new web
+   69  dotnet run
+   70  net stat
+   71  netstat
+   72  netstat | grep 5000
+   73  netstat -an| grep 5000
+   74  netstat -an | grep 5000
+   75  netstat -an 
+   76  netstat -a | grep 5000
+   77  netstat -an | grep 5000
+   78  ls
+   79  dotnet run
+   80  dotnet --version
+   81  cd ..
+   82  ls
+   83  cd ..
+   84  mkdir middleware-1
+   85  cd middleware-1
+   86  la
+   87  ls
+   88  dotnet new
+   89  dotnet new web
+   90  dotnet run
+   91  dotnet new web
+   92  ls
+   93  dotnet run
+   94  dotnet compile
+   95  dotnet ?
+   96  dotnet
+   97  dotnet -h
+   98  dotnet build
+   99  dotnet run
+  100  dotnet build && dotnet run
+  101  dotnet run
+  102  dotnet new web
+  103  dotnet run
+  104  cd dev/projects
+  105  ls
+  106  cd pluralsight
+  107  ls
+  108  cd odeToFood
+  109  ls
+  110  dotnet run 
+  111  echo  "# aspnet-core-fundamentals" >> README.md
+  112  ls
+  113  git
+  114  git init
+  115  git add .
+  116  git status
+  117  echo "" >> ..gitignore
+  118  ls
+  119  code .gitignore
+  120  git init
+  121  git add .
+  122  git status
+  123  git commit -m "init" 
+  124  git remote add origin https://github.com/syeremy/aspnet-core-fundamentals.git
+  125  git push -u origin master
+  126  cd dev
+  127  ls
+  128  cd projects
+  129  ls
+  130  cd pluralsight
+  131  ls
+  132  cd odeToFood
+  133  ls
+  134  dotnet run
+  135  dotnet build
+  136  dotnet run
+  137  dotnet build
+  138  dotnet run
+  139  dotnet build
+  140  dotnet run
+  141  dotnet build
+  142  dotnet run
+  143  env | grep DOCKER
+  144  nv
+  145  env
+  146  env | grep docker
+  147  docker
+  148  docker --version
+  149  docker-compose --version
+  150  docker-machine --version
+  151  docker version
+  152  cls
+  153  clear
+  154  docker version
+  155  clwE
+  156  clear
+  157  docker images
+  158  docker ps
+  159  docker pull microsoft/mssql-server-linux:2017-latest
+  160  docker images
+  161  docker ps
+  162  run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Passw0rd" -p 1433:1433 --name sqlDocker  -d microsoft/mssql-server-linux:2017-latest
+  163  docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Passw0rd" -p 1433:1433 --name sqlDocker  -d microsoft/mssql-server-linux:2017-latest
+  164  docker ps
+  165  brew sqlcmd
+  166  brew install sqlcmd
+  167  docker exec -it sqlDocker /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Passw0rd
+  168  ps
+  169  docker ps
+  170  npm
+  171  brew install sql-cli
+  172  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+  173  nvm
+  174  nvm --version
+  175  nvm install node
+  176  nvm ls
+  177  npm
+  178  npm --version
+  179  nvm alias
+  180  nvm use
+  181  npm install -g sql-cli
+  182  mssql
+  183  mssql -v
+  184  mssql -V
+  185  mssql -s localhost -P  Passw0rd
+  186  mssql -s localhost -p Passw0rd
+  187  docker exec -it sqlDocker /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Passw0rd
+  188  docker stop dockerSql
+  189  docker ps
+  190  docker stop sqlDocker
+  191  ps
+  192  docker ps
+  193  docker ps -a
+  194  docker start sqlDocker
+  195  mssql -s localhost -p Passw0rd
+  196  docker -rm -f sqlDocker
+  197  docker rm -f sqlDocker
+  198  docker ps -a
+  199  docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Passw0rd" -p 1433:1433 --name sqlDocker  -d microsoft/mssql-server-linux:2017-latest
+  200  mssql -s localhost -p Passw0rd
+  201  cd dev
+  202  mkdir data
+  203  cd data
+  204  mkdir docker-volumes
+  205  cd docker-volumes
+  206  mkdir sql-server
+  207  cd sql-server
+  208  pwd
+  209  cd ~
+  210  ls
+  211  ps
+  212  docker ps
+  213  docker rm -f sqlDocker
+  214  ps -a
+  215  docker ps -a
+  216  docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Passw0rd" -p 1433:1433 --name sqlDocker  -d microsoft/mssql-server-linux:2017-latest -v ~/dev/data/docker-volumes/sql-server:/var/opt/mssql
+  217  \tdocker ps -a
+  218  docker rm -f sqlDocker
+  219  docker ps -a
+  220  docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Passw0rd" -p 1433:1433 --name sqlDocker  -d microsoft/mssql-server-linux:2017-latest -v /Users/syeremy/dev/data/docker-volumes/sql-server:/var/opt/mssql
+  221  docker volume ls
+  222  docker ps -a
+  223  docker rm -f sqlDocker
+  224  docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Passw0rd" -p 1433:1433 --name sqlDocker  -d microsoft/mssql-server-linux:2017-latest -v mssqldata:/var/opt/mssql
+  225  docker rm -f sqlDocker
+  226  docker create -v /var/opt/mssql --name mssqldata  microsoft/mssql-server-linux /bin/true
+  227  docker create -v /var/opt/mssql --name mssqldata  microsoft/mssql-server-linux:2017-latest /bin/true
+  228  docker volume ls
+  229  docker volume -rm d179271ead2d14b750fc464e90a22365b6cfae1f88c7db3b36447fa921ae68e1 -f
+  230  docker volume rm d179271ead2d14b750fc464e90a22365b6cfae1f88c7db3b36447fa921ae68e1 -f
+  231  docker volume rm -f d179271ead2d14b750fc464e90a22365b6cfae1f88c7db3b36447fa921ae68e1 
+  232  docker ps -a
+  233  docker stop mssqldata
+  234  docker volume rm -f d179271ead2d14b750fc464e90a22365b6cfae1f88c7db3b36447fa921ae68e1 
+  235  docker volume rm  d179271ead2d14b750fc464e90a22365b6cfae1f88c7db3b36447fa921ae68e1 
+  236  docker ps -a
+  237  docker rm -f mssqldata
+  238  docker ps -a
+  239  docker volumes
+  240  docker volume ls
+  241  docker volume rm  d179271ead2d14b750fc464e90a22365b6cfae1f88c7db3b36447fa921ae68e1 
+  242  docker create -v /var/opt/mssql --name mssqldata  microsoft/mssql-server-linux:2017-latest /bin/true
+  243  docker run -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=Passw0rd' -p 1433:1433 -v mssqldata:/var/opt/mssql -d microsoft/mssql-server-linux:2017-latest
+  244  docker ps -a
+  245  docker rm -f elated_stallman
+  246  docker ps -a
+  247  docker run -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=Passw0rd' -p 1433:1433 --name sqlDocker  -v mssqldata:/var/opt/mssql -d microsoft/mssql-server-linux:2017-latest
+  248  docker ps
+  249  docker ps -a
+  250  docker volumes ls
+  251  docker volume ls
+  252  docker volume prune
+  253  docker volume ls
+  254  mssql localhost -p Passw0rd
+  255  mssql
+  256  mssql -s localhost -p Passw0rd
+  257  docker ps
+  258  docker rm -f sqlDocker
+  259  mssql -s localhost -p Passw0rd
+  260  docker run -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=Passw0rd' -p 1433:1433 --name sqlDocker  -v mssqldata:/var/opt/mssql -d microsoft/mssql-server-linux:2017-latest
+  261  mssql -s localhost -p Passw0rd
+  262  dotnet ef
+  263  \tdocker ps -a
+  264  dotnet f
+  265  dotnet ef
+  266  dotnet build
+  267  dotnet ef
+  268  dotnet ef dbcontext list
+  269  dotnet build
+  270  dotnet ef dbcontext list
+  271  dotnet ef dbcontext info
+  272  ef migrations add --help
+  273  dotnet ef migrations add --help
+  274  dotnet ef migrations add InitialCreateYere -v
+  275  dotnet ef database update -v
+  276  openssl
+  277  openssl genrsa -out key.pem 2048
+  278  openssl req -new -sha256 -key key.pem -out csr.csr
+  279  openssl pkcs12 -export -out localhost.pfx -inkey key.pem -in certificate.pem  
+  280  history
+  281  dotnet add package Microsoft.AspNetCore.Server.Kestrel.Https
+  282  dotnet restore
+  283  dotnet run
+  284  dotnet restore
+  285  dotnet run
+  286  cls
+  287  clear
+  288  dotnet run
+  289  docker ps
+  290  dpcler ps -a
+  291  docker ps -a
+  292  docker start sqlDocker
+  293  docker start  `docker ps -q -l`
+  294  docker ps
+  295  docker ps -a
+  296  docker start -a 7c72e0d275f8
+  297  docker -rm -f 7c72e0d275f8
+  298  history
+  299  docker rm -f sqlDocker
+  300  docker ps -a
+  301  docker run -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=Passw0rd' -p 1433:1433 --name sqlDocker  -v mssqldata:/var/opt/mssql -d microsoft/mssql-server-linux:2017-latest
+  302  dotnet runmssql localhost -p Passw0rd
+  303  mssql localhost -p Passw0rd
+  304  history
+  305  dotnet run
+  306  cd dev/
+  307  touch https.config
+  308  ls
+  309  vim https.config
+  310  less https.config
+  311  openssl req -config https.config -new -out csr.pem
+  312  cd ssl
+  313  ls
+  314  openssl x509 -req -days 365 -extfile https.config -extensions v3_req -in csr.pem -signkey key.pem -out https.crt
+  315  openssl req -config https.config -new -out csr.pem
+  316  openssl x509 -req -days 365 -extfile https.config -extensions v3_req -in csr.pem -signkey key.pem -out https.crt
+  317  openssl pkcs12 -export -out https.pfx -inkey key.pem -in https.crt -password pass:XXX
+  318  sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain https.crt
+  319  pwd
+  320  dotnet run
+  321  sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain https.crt
+  322  git status
+  323  git add .
+  324  git commit 'Security'
+  325  git commit -m 'Security'
+  326  git push 
+  327  npm install
+  328  ls
+  329  docker ps
+  330  docker ps -a
+  331  npm install
+  332  git add .
+  333  git commit -m "Final"
+  334  git push 
+  335  docker stop sqlDocker
+  336  docker ps
+  337  pwd
+  338  cd /Users/syeremy/dev/projects/pluralsight/javascript/module fundamentals/module-3/multimath
+  339  /Users/syeremy/dev/projects/pluralsight/javascript/module fundamentals/module-3/multimath
+  340  cd /
+  341  cd /Users/syeremy/dev/projects/pluralsight/javascript/module fundamentals/module-3/multimath
+  342  cd ~
+  343  ls
+  344  cd dev
+  345  ls
+  346  cd ..
+  347  cd Projects
+  348  ls
+  349  pwd
+  350  cd ..
+  351  cd dev
+  352  ls
+  353  cd projects
+  354  ls
+  355  cd pluralsight
+  356  ls
+  357  cd javascript
+  358  ls
+  359  cd module\ fundamentals
+  360  ls
+  361  cd module-3
+  362  pwd
+  363  cd "/Users/syeremy/dev/projects/pluralsight/javascript/module fundamentals/module-3"
+  364  npm --version
+  365  npm install
+  366  npm start
+  367  npm install requirejs --save
+  368  npm start
+  369  npm install
+  370  npm start\n: 1518583444:0;npm start
+  371  dotnet add package Microsoft.AspNet.Identity.Core
+  372  ls
+  373  cd Syeremy.Identity
+  374  ls
+  375  dotnet add package Microsoft.AspNet.Identity.Core
+  376  dotnet restore
+  377  dotnet add package Microsoft.AspNet.Identity.Core --version 2.2.1
+  378  dotnet remove package Microsoft.AspNet.Identity.Core
+  379  dotnet restore
+  380  Install-Package Microsoft.AspNetCore.Identity -Version 2.0.1
+  381  dotnet add package Microsoft.AspNetCore.Identity --version 2.0.1
+  382  dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 2.0.1
+  383  dotnet restore
+  384  dotnet new
+  385  cd ..
+  386  dotnet new mvc --auth Individual 
+  387  ls
+  388  cd ..
+  389  ~
+  390  cd Projects
+  391  ls
+  392  dotnet new mvc --auth Individual 
+  393  docker ps -a
+  394  docker start sqlDocker
+  395  docker ps
+  396  ~
+  397  mssql -s localhost -p Passw0rd
+  398  update-Dabase
+  399  dotnet Update-Dabatase
+  400  dotnet Update-Database
+  401  dotnet ef --help
+  402  dotnet ef database update -v
+  403  \nUsing environment 'Development'.\nUsing application service provider from BuildWebHost method on 'Program'.\ninfo: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]\n      User profile is available. Using '/Users/syeremy/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.\nFound DbContext 'ApplicationDbContext'.\nFinding DbContext classes in the project...\nUsing context 'ApplicationDbContext'.\ninfo: Microsoft.EntityFrameworkCore.Infrastructure[10403]\n      Entity Framework Core 2.0.1-rtm-125 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None\nFinding design-time services for provider 'Microsoft.EntityFrameworkCore.Sqlite'...\nUsing design-time services from provider 'Microsoft.EntityFrameworkCore.Sqlite'.\nFinding IDesignTimeServices implementations in assembly 'Projects'...\nNo design-time services were found.\nSystem.ArgumentException: Keyword not supported: 'server'.\n   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.GetIndex(String keyword)\n   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.set_Item(String keyword, Object value)\n   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)\n   at Microsoft.Data.Sqlite.SqliteConnection.set_ConnectionString(String value)\n   at Microsoft.Data.Sqlite.SqliteConnection..ctor(String connectionString)\n   at Microsoft.EntityFrameworkCore.Storage.Internal.SqliteRelationalConnection.CreateDbConnection()\n   at Microsoft.EntityFrameworkCore.Internal.LazyRef`1.get_Value()\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.get_DbConnection()\n   at Microsoft.EntityFrameworkCore.Internal.RelationalLoggerExtensions.MigrateUsingConnection(IDiagnosticsLogger`1 diagnostics, IMigrator migrator, IRelationalConnection connection)\n   at Microsoft.EntityFrameworkCore.Migrations.In
+  404  dotnet ef database update -v
+  405  dotnet ef
+  406  dotnet ef dbcontext list
+  407  dotnet ef migrations add initialAspIdentity -v
+  408  dotnet ef database update -v
+  409  \nFound DbContext 'ApplicationDbContext'.\nFinding DbContext classes in the project...\nUsing context 'ApplicationDbContext'.\ninfo: Microsoft.EntityFrameworkCore.Infrastructure[10403]\n      Entity Framework Core 2.0.1-rtm-125 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None\nFinding design-time services for provider 'Microsoft.EntityFrameworkCore.Sqlite'...\nUsing design-time services from provider 'Microsoft.EntityFrameworkCore.Sqlite'.\nFinding IDesignTimeServices implementations in assembly 'Projects'...\nNo design-time services were found.\nSystem.ArgumentException: Keyword not supported: 'server'.\n   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.GetIndex(String keyword)\n   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.set_Item(String keyword, Object value)\n   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)\n   at Microsoft.Data.Sqlite.SqliteConnection.set_ConnectionString(String value)\n   at Microsoft.Data.Sqlite.SqliteConnection..ctor(String connectionString)\n   at Microsoft.EntityFrameworkCore.Storage.Internal.SqliteRelationalConnection.CreateDbConnection()\n   at Microsoft.EntityFrameworkCore.Internal.LazyRef`1.get_Value()\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.get_DbConnection()\n   at Microsoft.EntityFrameworkCore.Internal.RelationalLoggerExtensions.MigrateUsingConnection(IDiagnosticsLogger`1 diagnostics, IMigrator migrator, IRelationalConnection connection)\n   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)\n   at Microsoft.EntityFrameworkCore.Design.Internal.MigrationsOperations.UpdateDatabase(String targetMigration, String contextType)\n   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.UpdateDatabase.<>c__DisplayClass0_1.<.ctor>b__0()\n   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.OperationBase.Execute(Action action)\nKeyword not supported: 'server'.\n ✘ syeremy  ~/Projects \nFound DbContext 'ApplicationDbContext'.\nFinding DbContext classes in the project...\nUsing context 'ApplicationDbContext'.\ninfo: Microsoft.EntityFrameworkCore.Infrastructure[10403]\n      Entity Framework Core 2.0.1-rtm-125 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None\nFinding design-time services for provider 'Microsoft.EntityFrameworkCore.Sqlite'...\nUsing design-time services from provider 'Microsoft.EntityFrameworkCore.Sqlite'.\nFinding IDesignTimeServices implementations in assembly 'Projects'...\nNo design-time services were found.\nSystem.ArgumentException: Keyword not supported: 'server'.\n   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.GetIndex(String keyword)\n   at Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.set_Item(String keyword, Object value)\n   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)\n   at Microsoft.Data.Sqlite.SqliteConnection.set_ConnectionString(String value)\n   at Microsoft.Data.Sqlite.SqliteConnection..ctor(String connectionString)\n   at Microsoft.EntityFrameworkCore.Storage.Internal.SqliteRelationalConnection.CreateDbConnection()\n   at Microsoft.EntityFrameworkCore.Internal.LazyRef`1.get_Value()\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.get_DbConnection()\n   at Microsoft.EntityFrameworkCore.Internal.RelationalLoggerExtensions.MigrateUsingConnection(IDiagnosticsLogger`1 diagnostics, IMigrator migrator, IRelationalConnection connection)\n   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)\n   at Microsoft.EntityFrameworkCore.Design.Internal.MigrationsOperations.UpdateDatabase(String targetMigration, String contextType)\n   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.UpdateDatabase.<>c__DisplayClass0_1.<.ctor>b__0()\n   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.OperationBase.Execute(Action action)\nKeyword not supported: 'server'.\n ✘ syeremy  ~/Projects 
+  410  dotnet ef database update -v
+  411  history
+  412  dotnet add package Microsoft.AspNetCore.Identity --version 2.0.1
+  413  otnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 2.0.1
+  414  dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 2.0.1
+  415  dotnet restore
+  416  dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 2.0.1
+  417  dotnet restore
+  418  dotnet add package Microsoft.AspNetCore --version 2.0.1
+  419  dotnet restore
+  420  docker ps
+  421  docker stop sqlDocker
+  422  docker ps
+  423  docker ps -a
+  424  dotnet new ?
+  425  dotnet new web --name fundamentals
+  426  ls
+  427  cd fundamentals
+  428  ls
+  429  history
+  430  docker ps
+  431  docker ps -a
+  432  docker start sqlDocker
+  433  cls
+  434  clear
+  435  mssql -s localhost -p Passw0rd
+  436  dotnet ef database update -v
+  437  dotnet ef
+  438  fotnet ef ?
+  439  dotnet ef ?
+  440  dotnet ?
+  441  pwd
+  442  /Users/syeremy/dev/projects/pluralsight/security/Identity/fundamentals
+  443  dotnet
+  444  dotnet ef database update -v
+  445  pwd
+  446  dotnet ef
+  447  history
+  448  dotnet ef dbcontext list
+  449  dotnet restore
+  450  dotnet ef dbcontext list
+  451  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+  452  dotnet restore
+  453  dotnet ef ?
+  454  dotnet restore
+  455  dotnet ef
+  456  dotnet ef database update -v
+  457  dotnet ef dbcontext list
+  458  dotnet ef database update -
+  459  dotnet ef database update -v
+  460  clear
+  461  mssql -s localhost  -p Passw0rd
+  462  dotnet ef migrations ?
+  463  histor
+  464  history
+  465  dotnet ef migrations add InitialAspNetIdentityDb -v
+  466  history
+  467  dotnet ef database update -v
+  468  ls
+  469  git init
+  470  git add .
+  471  git commit -m "First commit"
+  472  git remote add origin https://github.com/syeremy/aspnet-core-identity-base.git
+  473  git push -u origin master
+  474  dotnet new mvc --auth Individual  
+  475  ls
+  476  dotnet new ?
+  477  dotnet new web ?
+  478  dotnet new web -h
+  479  dotnet new web -n CustomUserStore
+  480  git status
+  481  git add .
+  482  git status
+  483  git commit -m "change"
+  484  git push 
+  485  dotnet new ?
+  486  dotnet new mvc -au Individual 
+  487  mkdir Module-03
+  488  cd Module-03
+  489  dotnet new mvc -au Individual -n Module-03 -na Syeremy.Module03
+  490  dotnet new mvc -au Individual -n Module03 
+  491  netstat
+  492  netstat vanp tcp | grep 500
+  493  netstat vanp tcp | grep 5000
+  494  netstat -vanp tcp | grep 5000
+  495  sudo lsof -i tcp:5000
+  496  dotnet restore
+  497  netstat tcp
+  498  netstat tcp | grep 5000
+  499  lsof -i :5000
+  500  lsof -i -n :5000
+  501  lsof -n -i:5000
+  502  lsof -i:5000
+  503  lsof -n -i:5000 | grep LISTEN
+  504  ls
+  505  cls
+  506  clear
+  507  cls
+  508  clear
+  509  history
+  510  Update-Database
+  511  dotnet ef database update -v
+  512  dotnet ef
+  513  dotnet restore
+  514  dotnet ef ?
+  515  dotnet-ef 
+  516  dotnet add package Microsoft.AspNetCore.Identity --version 2.0.1
+  517  cls
+  518  ls
+  519  cd ..
+  520  ls
+  521  cd UndestandingdotNetCoreSecurity
+  522  cd Module-Auth
+  523  ls
+  524  donet ef
+  525  dotnet ef
+  526  dotnet ef database update -v
+  527  history
+  528  pwd
+  529  cd /Users/syeremy/dev/projects/pluralsight/security/Identity/UndestandingdotNetCoreSecurity/UndestandingdotNetCoreSecurity/Module-Auth\n
+  530  clear
+  531  lsof -n -i:5000
+  532  donet run 
+  533  dotnet run 
+  534  dotnet run --environment="Development" 
+  535  ASPNETCORE_ENVIRONMENTASPNETCORE_ENVIRONMENT
+  536  dotnet run --environment "Staging"
+  537  dotnet run --environment "Development"
+  538  dotnet run ASPNETCORE_ENVIRONMENT=Development 
+  539  ASPNETCORE_ENVIRONMENT=Development dotnet run
+  540  clear
+  541  ASPNETCORE_ENVIRONMENT=Development dotnet run
+  542  docker ps -a
+  543  dotnet ef migrations add initial2
+  544  dotnet build
+  545  dotnet ef migrations add initial2
+  546  dotnet ef migrations add addDate
+  547  dotnet ef database update
+  548  dotnet ef migrations add addDate
+  549  dotnet ef database update -v
+  550  dotnet ef database update
+  551  dotnet ef migrations add initial
+  552  dotnet ef database update
+  553  dotnet ef migrations add initial
+  554  dotnet ef migrations add initial2
+  555  history
+  556  dotnet ef migrations add initial -v
+  557  dotnet ef migrations add initial3 -v
+  558  dotnet ef database update -v
+  559  dotnet ef migrations add initial3 -v
+  560  dotnet ef database update -v
+  561  dotnet ef database update 
+  562  dotnet ef migrations add initial3 -v
+  563  dotnet ef database update 
+  564  java -version
+  565  ls
+  566  cd bin
+  567  ls
+  568  solr.cmd start
+  569  cd ..
+  570  bin/solr start
+  571  bin/solr stop
+  572  bin/solr start
+  573  bin/solr stop all
+  574  bin/solr stop -all
+  575  bin/solr start
+  576  bin/solr create -c syeremy
+  577  sudo chmod 755 /bin/*.sh
+  578  ls
+  579  cd bin
+  580  LS
+  581  CD ..
+  582  sudo chmod 755 *.sh
+  583  CD ..
+  584  sudo chmod 755 bin/*.sh
+  585  cd ..
+  586  sudo chmod 755 bin/*.sh
+  587  sudo sh startup.sh
+  588  cd bin
+  589  sudo sh startup.sh
+  590  bin/solr stop -all
+  591  bon/solr start
+  592  bin/solr start
+  593  dotnet new ?
+  594  dotnet new mvc 
+  595  dotnet restre
+  596  dotnet restore
+  597  ddo
+  598  cd ..
+  599  cd ~/dev/projects/pluralsight/solr/
+  600  mkdir solrnet
+  601  cd solrnet
+  602  dotnet new web
+  603  dotnet restore
+  604  bin/solr stop -all
+  605  bin/solr start 
+  606  cd ~/dev/tools/solr-5.5.5
+  607  bin/solr start
+  608  bin/solr stop -all
+  609  bin/solr start
+  610  dotnet new
+  611  pwd
+  612  cd /Users/syeremy/dev/tools/fiddler-mac
+  613  mono
+  614  mono Fiddler.exe
+  615  bin/solr stop -all
+  616  bin/solr start
+  617  bin/solr stop -all
+  618  bin/solr start
+  619  bin/solr stop -all
+  620  cd ..
+  621  cd solr-5.5.5
+  622  bin/solr start
+  623  bin/solr stop -all
+  624  bin/solr start
+  625  bin/solr stop -all
+  626  bin/solr start
+  627  bin/solr stop -all
+  628  bin/solr start
+  629  bin/solr stop -all
+  630  bin/solr start
+  631  dotnet add package SolrNet --version 1.0.6 -v
+  632  dotnet add package SolrNet --version 1.0.6 --verbose
+  633  dotnet add package SolrNet --version 1.0.6 
+  634  dotnet restore
+  635  dotnet add package SolrNet --version 1.0.6 
+  636  dotnet restore
+  637  Install-Package SolrNet.Core -Version 1.0.6
+  638  Install-Package SolrNet.Microsoft.DependencyInjection
+  639  dotnet add package SolrNet.Microsoft.DependencyInjection --version 1.0.6
+  640  dotnet add package SolrNet --version 1.0.6
+  641  bin/solr create -c courses
+  642  bin/solr stop -p 8983
+  643  bin/solr -e cloud 
+  644  bin/solr stop -p 7574
+  645  bin/solr stop -p 8983
+  646  bin/solr start
+  647  bin/solr create -c extractdemo
+  648  bin.solr stop -p 8983
+  649  bin/solr stop -p 8983
+  650  cmd
+  651  pwd
+  652  bin/solr stop -p 8983
+  653  \n
+  654  /Users/syeremy/dev/tools/solr-5.5.5
+  655  ls
+  656  bin/solr stop -all
+  657  bin/solr start 
+  658  bin/solr create -c extractdemo
+  659  mono --version
+  660  cd /Library/Frameworks/Mono.framework/Versions/
+  661  ls
+  662  cd 5.8.0/bin/
+  663  mozroots --import --sync
+  664  cd ~/dev/tools
+  665  ls
+  666  cd fiddler-mac
+  667  mono Fiddler.exe
+  668  mono --arch=32  Fiddler.exe
+  669  cd ~/dev/tools/fiddler-mac
+  670  mono --arch=32  Fiddler.exe
+  671  hostname
+  672  mono -arch=32 Fiddler.exe
+  673  pwd
+  674  /Users/syeremy/dev/tools/fiddler-mac
+  675  ono -arch=32 Fiddler.exe
+  676  mono -arch=32 Fiddler.exe
+  677  mono --arch=32 Fiddler.exe
+  678  npm -v
+  679  nvm -v
+  680  nvm --version
+  681  node -v
+  682  nvm ?
+  683  nvm l
+  684  nvm ls
+  685  node -version
+  686  node --v
+  687  node 
+  688  node -version
+  689  node ?
+  690  npm version
+  691  npm install
+  692  npm start
+  693  y
+  694  nvm install node
+  695  nvm ls
+  696  npm start
+  697  ng version
+  698  ng
+  699  npm install -g @angular/cli
+  700  ng --version
+  701  npm install --save-dev @angular/cli@latest
+  702  ng --version
+  703  ng -version
+  704  ng
+  705  ng -v
+  706  npm start
+  707  ls
+  708  ng g c products/product-detail.component
+  709  ng g c products/product-detail
+  710  npm start
+  711  ng g m products/product --flat -m app.module
+  712  npm start
+  713  ng g m shared/shared
+  714  npm start
+  715  ng new hello-world
+  716  code .
+  717  git clone https://github.com/DanWahlin/Angular-ASPNET-Core-Seed.git
+  718  sdkman --version
+  719  man --version
+  720  sdk list java
+  721  sdk list gulp
+  722  sdk update
+  723  sdk selfupdate 
+  724  sdk --version
+  725  man --version
+  726  man list java
+  727  man
+  728  man list java
+  729  npm install gulp -g
+  730  gulp --version
+  731  git checkout -b develop-yere
+  732  git branches
+  733  git branch
+  734  npm install 
+  735  ls
+  736  cd Angular_ASPNETCore_Seed
+  737  npm install 
+  738  gulp copy:libs
+  739  dotnet restore
+  740  npm run tsc:w
+  741  tsc -w
+  742  sdk list typescript
+  743  npm install typescript -g
+  744  tsc -w
+  745  npm run tsc:w
+  746  tsc -w
+  747  npm run tsc:w
+  748  tsc
+  749  tsc -w
+  750  npm run tsc:w
+  751  dotnet --install Microsoft.AspNetCore.SpaTemplates::*
+  752  cd ..
+  753  ls
+  754  mkdir angular-aspnet.core
+  755  cd angular-aspnet.core
+  756  ls
+  757  dotnet new --install Microsoft.AspNetCore.SpaTemplates::*
+  758  ls
+  759  dotnet new ?
+  760  dotnet new --help
+  761  dotnet new angular -n Syeremy.Angular
+  762  ls
+  763  cd Syeremy.Angular
+  764  dotnet restore
+  765  dotnet build
+  766  npm install
+  767  dotnet buil
+  768  dotnet build
+  769  dotnet run
+  770  git clone 
+  771  git clone https://github.com/DanWahlin/Angular-ASPNET-Core-CustomersService.git
+  772  npm install
+  773  ls
+  774  cd Angular-ASPNET-Core-CustomersService
+  775  npm install
+  776  tsc:w
+  777  tsc
+  778  ls
+  779  tsc:w
+  780  tsc
+  781  npm run tsc:w
+  782  gulp copy:libs
+  783  ifconfig
+  784  ssh 192.168.1.4
+  785  diskutil list
+  786  sudo fsck_exfat
+  787  sudo fsck_exfat -d /dev/disk2s3
+  788  ssh 192.168.1.4
+  789  ssh syeremy@192.168.1.4
+  790  docker ls -a
+  791  docker container ls -a
+  792  docker pull ubuntu
+  793  docker image tag  ubuntu 192.168.1.4:5008/myfistImage
+  794  docker image tag  ubuntu 192.168.1.4:5008/myfistImagedock
+  795  docker pull 192.168.1.4:5008/myfirstimage
+  796  mssql -s 192.168.1.4 -P Passw0rd
+  797  mssql 
+  798  history
+  799  mssql -s
+  800  mssql 
+  801  npm install -g sql-cli
+  802  mssql
+  803  mssql -s 192.168.1.4 -P Passw0rd
+  804  mssql -s 192.168.1.4 -p Passw0rd
+  805  history
+  806  mssql -s 192.168.1.4 -p Passw0rd
+  807  sudo poweroff
+  808  ssh 192.168.1.4
+  809  ls
+  810  mkdir temp
+  811  cd temp
+  812  curl -L -o wwi.bak 'https://github.com/Microsoft/sql-server-samples/releases/download/wide-world-importers-v1.0/WideWorldImporters-Full.bak'
+  813  ls
+  814  docker 
+  815  scp
+  816  ls
+  817  scp wwi.bak syeremy@192.168.1.4:/volume1/elCavernas.shared
+  818  mssql -S 192.168.1.4 -U sa -P Passw0rd
+  819  mssql -s 192.168.1.4 -u sa -p Passw0rd
+  820  ssh syeremy@192.168.1.4
+  821  cd ..
+  822  scp helloworld.cpp syeremy@192.168.1.4:/volume1/elCavernas.shared/docker-test
+  823  scp . syeremy@192.168.1.4:/volume1/elCavernas.shared/docker-test
+  824  scp -r *  syeremy@192.168.1.4:/volume1/elCavernas.shared/docker-test
+  825  ssh syeremy@192.168.1.4
+  826  \\\\n
+  827  clear
+  828  ssh syeremy@192.168.1.4
+  829  ifconfig
+  830  networksetup -getdnsservers 
+  831  networksetup -getdnsservers airport
+  832  sudo ifconfig en1 down
+  833  ifconfig -all
+  834  ifconfig -a
+  835  docker image ps
+  836  docker image ls
+  837  docker system info
+  838  ls -a /var/lib/docker
+  839  ls -la /var/lib/docker
+  840  /var/lib/docker
+  841  cd /var
+  842  ls
+  843  cd lib
+  844  ls
+  845  cd docker
+  846  ls -la /var/lib/docker
+  847  docker system info
+  848  cd /var/lib/docker
+  849  cd ~/Library/Containers/com.docker.docker/Data/
+  850  ls
+  851  cd com.docker.driver.amd64-linux
+  852  ls
+  853  ls -la
+  854  cd ,,
+  855  cd ..
+  856  ls -la
+  857  cd com.docker.driver.amd64-linux
+  858  cd tty
+  859  ls
+  860  cd tty
+  861  ls tty
+  862  screen ~/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/tty
+  863  cd ~/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/tty
+  864  screen ~/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/tty
+  865  /usr/local/bin/dockerd
+  866  cd /usr/local/bin/dockerd
+  867  sudo dockerd --insecure-registry 192.168.1.4:5008
+  868  docker info
+  869  cd docker
+  870  docker
+  871  scp syeremy@192.168.1.4://var/packages/Docker/scripts/start-stop-status .
+  872  docker info
+  873  curl -v -H "Accept: application/vnd.docker.distribution.manifest.v2+json" -X HEAD http://192.168.1.4:5008/v2/my-ubuntu//manifests/latest
+  874  ssh syeremy@192.168.1.4
+  875  ping http://registry.elcavernas.com/
+  876  ping google.com
+  877  ping http://registry.elcavernas.com/ -t
+  878  ping -c google.com
+  879  ping -c www.google.com
+  880  man ping google.com
+  881  ping google.com
+  882  ping http://registry.elcavernas.com/ -t
+  883  ping http://registry.elcavernas.com
+  884  ping http://nas.elcavernas.com:5008/
+  885  curl http://registry.elcavernas.com/
+  886  curl http://registry.elcavernas.com/v2/_catalog
+  887  http://registry.elcavernas.com/v2/_catalog\n
+  888  docker
+  889  docker pulll registry.elcavernas.com/my-ubuntu
+  890  docker pull registry.elcavernas.com/my-ubuntu
+  891  ping 
+  892  ping registry.elcavernas.com/
+  893  ping registry.elcavernas.com
+  894  ping http://registry.elcavernas.com/
+  895  ping http://registry.elcavernas.com
+  896  tracert http://registry.elcavernas.com/
+  897  ping http://registry.elcavernas.com
+  898  docker pull registry.elcavernas.com/my-ubuntu
+  899  docker image ls
+  900  ping http://registry.elcavernas.com
+  901  ping registry.elcavernas.com
+  902  docker pull registry.elcavernas.com/my-ubuntu
+  903  docker image microsoft/dotnet list
+  904  docker images microsoft/dotnet
+  905  docker images microsoft/dotnet ls
+  906  history
+  907  ssh syeremy@192.168.1.4
+  908  docker version
+  909  dotnet -version
+  910  dotnet --version
+  911  donet --version
+  912  dotnet --version
+  913  dotnet update
+  914  brew dotne update
+  915  brew update dotnet
+  916  brew upgrade dotnet 
+  917  ls
+  918  cd dev
+  919  ls
+  920  cd projects
+  921  cd pluralsight
+  922  ls
+  923  ls -la
+  924  mkdir docker
+  925  cd docker
+  926  ls
+  927  mkdir docker-aspnetcore
+  928  cd docker-aspnetcore
+  929  ls
+  930  mkdir yere-demo
+  931  cd yere-demo
+  932  ls
+  933  dotnet new ?
+  934  dotnet new mvc --name elcavernas-site --auth Individual
+  935  ls -la
+  936  cd elcavernas-site
+  937  ls
+  938  dotnet restore 
+  939  pwd
+  940  dotnet run
+  941  dotnet publish 
+  942  docker run --rm -it microsoft/dotnet:2.1-sdk
+  943  docker ps
+  944  docker rm -f ac764cc745f7
+  945  docker image pull microsoft/aspnetcore:2
+  946  ls
+  947  ls -la
+  948  dotnet publish
+  949  ls -la /bin/Debug/netcoreapp2.0/publish/
+  950  ls -la /bin/Debug/netcoreapp2.0/publish
+  951  ls -la ./bin/Debug/netcoreapp2.0/publish
+  952  docker image build -t elCavernas-site
+  953  docker image build -t elCavernas-site .
+  954  docker image build -t elcavernas-site .
+  955  docker image ls
+  956  docker run -it -p 8080:80 --name el-Cavernas elcavernas-site sh
+  957  docker run -it -p 8080:80 --name el-Cavernas elcavernas-site 
+  958  docker ps
+  959  docker ps -a
+  960  docker rm -f 674f2865388c
+  961  docker run -it -p 8080:80 --name el-Cavernas elcavernas-site 
+  962  docker run -it -p 8080:80  elcavernas-site dotnet --info
+  963  docker run --rm -it -p 8080:80  elcavernas-site dotnet --info
+  964  docker run --rm -it microsoft/aspnetcore dotnet --info
+  965  docker run --rm -it elcavernas-site dotnet --info
+  966  docker ps -a
+  967  docker rm -f 2fe2131723e0 4e809c2a3469
+  968  docker ps -a
+  969  docker image ls
+  970  docker image rm elcavernas-site
+  971  docker ps
+  972  dkcker ps -a
+  973  docker ps -a
+  974  docker image build -t aspnetcore/elcavernas-site .
+  975  docker run --rm -it microsoft/aspnetcore dotnet --info\n
+  976  docker run --rm -it -p 8080:80 aspnetcore/elcavernas-site 
+  977  docker image tag aspnetcore/elcavernas-site registry.elcavernas.com/aspnetcore/elcavernas-site
+  978  docker push registry.elcavernas.com/aspnetcore/elcavernas-site
+  979  docker image tag aspnetcore/elcavernas-site 192.168.1.4:5008/aspnetcore/elcavernas-site
+  980  docker push 192.168.1.4:5008/aspnetcore/elcavernas-site
+  981  docker pull registry.elcavernas.com/aspnetcore/elcavernas-site
+  982  docker ps
+  983  docker pull registry.elcavernas.com/aspnetcore/elcavernas-sit
+  984  ssh syeremy@192.168.1.4
+  985  ping elcavernas.com
+  986  ping http://www.elcavernas.com/
+  987  ping http://www.elcavernas.com
+  988  ping elcavernas.com
+  989  ssh syeremy@192.168.1.4
+  990  ping http://registry-elcavernas.ddns.net/
+  991  ping registry-elcavernas.ddns.net
+  992  ssh syeremy@192.168.1.4
+  993  docker images
+  994  docker run 
+  995  dotnet run
+  996  {pwd}
+  997  docker run --rm -it -v ${pwd}:/elcavernas-site microsoft/aspnetcore:2.0-stretch
+  998  docker run --rm -it -v ${pwd}:/elcavernas-site microsoft/aspnetcore-build:2.0-stretch
+  999  docker run --rm -it -v ${pwd}:/app microsoft/aspnetcore-build:2.0-stretch
+ 1000  docker run  -it -v ${pwd}:/app microsoft/aspnetcore-build:2.0-stretch
+ 1001  docker ps
+ 1002  docker inspect 848e810f0a02
+ 1003  docker inspect 848e810f0a02 | pj
+ 1004  docker inspect 848e810f0a02 | jq
+ 1005  docker run  -it -v ${pwd}:/app -w /app  microsoft/aspnetcore-build:2.0-stretch
+ 1006  docker run --name coconut -i -p 5000:80 -v ${pwd}:/app -w /app microsoft/aspnetcore-build bash -c "dotnet restore && dotnet run"
+ 1007  ls
+ 1008  ls -l
+ 1009  pwd
+ 1010  docker run --name coconut -i -p 5000:80 -v /Users/syeremy/dev/projects/pluralsight/docker/docker-aspnetcore/yere-demo/elcavernas-site:/app -w /app microsoft/aspnetcore-build bash -c "dotnet restore && dotnet run"
+ 1011  docker run  -i -p 5000:80 -v /Users/syeremy/dev/projects/pluralsight/docker/docker-aspnetcore/yere-demo/elcavernas-site:/app -w /app microsoft/aspnetcore-build bash -c "dotnet restore && dotnet run"
+ 1012  docker ps
+ 1013  docker ps -a
+ 1014  docker run -i -p 5000:80 -v ${pwd}:/app -w /app microsoft/aspnetcore-build bash -c "dotnet restore && dotnet run"
+ 1015  echo ${path}
+ 1016  echo ${pwd}
+ 1017  echo `pws`
+ 1018  echo `pwd`
+ 1019  echo {pwd}
+ 1020  echo ${pwd}
+ 1021  echo `pwd`
+ 1022  docker run --rm  -it -v `pwd`:/app -w /app  microsoft/aspnetcore-build:2.0-stretch
+ 1023  docker ps
+ 1024  docker run -i -p 5000:80 -v ${pwd}:/app -w /app microsoft/aspnetcore-build bash -c "dotnet restore && dotnet run"
+ 1025  docker run -i -p 5000:80 -v `pwd`:/app -w /app microsoft/aspnetcore-build bash -c "dotnet restore && dotnet run"
+ 1026  docker ps
+ 1027  docker ps -a
+ 1028  docker run -i -p 5000:80 -v `pwd`:/app -w /app microsoft/aspnetcore-build bh
+ 1029  docker run -i -p 5000:80 -v `pwd`:/app -w /app microsoft/aspnetcore-build bs
+ 1030  docker run -i -p 5000:80 -v `pwd`:/app -w /app microsoft/aspnetcore-build bash
+ 1031  docker ps
+ 1032  docker rm -f 7eb5e6c45e3e
+ 1033  docker run -i -p 5000:80 -v `pwd`:/app -w /app microsoft/aspnetcore-build sh
+ 1034  docker ps
+ 1035  docker rm -f 5cf79ebdc8ca
+ 1036  docker run   -it -v `pwd`:/app -w /app  microsoft/aspnetcore-build:2.0-stretch
+ 1037  dotnet run 
+ 1038  ls -l
+ 1039  dotnet elcavernas-site.dll
+ 1040  ls
+ 1041  docker ps
+ 1042  docker run   -it -v `pwd`:/app -w /app  microsoft/aspnetcore-build:2.0-stretch sh
+ 1043  docker ps
+ 1044  dorkcer rm -f  421280da397b 421280da397b 05f5e4b239b5  76e3e6425041
+ 1045  dokcer rm -f  421280da397b 421280da397b 05f5e4b239b5  76e3e6425041
+ 1046  docker rm -f  421280da397b 421280da397b 05f5e4b239b5  76e3e6425041
+ 1047  docker ps
+ 1048  docker rm -f 55664c7491e3
+ 1049  docker rm -f 848e810f0a02  c042669b49b9 f6069b376a05 176e773bc8f8
+ 1050  docker ps
+ 1051  docker ps -a
+ 1052  docker rm $(docker ps -a -q)
+ 1053  docker ps -a -q
+ 1054  docker ps -a 
+ 1055  docker run -i -p 5000:80 -v `pwd`:/app -w /app microsoft/aspnetcore-build bash -c "dotnet restore && dotnet run & "
+ 1056  docker ps 
+ 1057  docker run -i -p 5000:80 -v `pwd`:/app -w /app microsoft/aspnetcore-build bash -c "dotnet restore && dotnet run"
+ 1058  docker run -it -p 5000:80 -v `pwd`:/app -w /app microsoft/aspnetcore-build bash -c "dotnet restore && dotnet run &"
+ 1059  docker ps
+ 1060  docker ps -a
+ 1061  docker run -it -p 5000:80 -v `pwd`:/app -w /app microsoft/aspnetcore-build bash -c "dotnet restore && dotnet run"
+ 1062  docker run   -it -v `pwd`:/app -w /app  microsoft/aspnetcore-build:2.0-stretch 
+ 1063  docker ps
+ 1064  docker run  --rm  -it -p 5000:80 -v `pwd`:/app -w /app  microsoft/aspnetcore-build:2.0-stretch 
+ 1065  docker ps
+ 1066  docker rm -f 26dbf8b0aea9  1e44cb1f760e
+ 1067  docker run  --rm  -it -p 5000:80 -v `pwd`:/app -w /app  microsoft/aspnetcore-build:2.0-stretch 
+ 1068  docker run  --rm  -it -p 80:5000 -v `pwd`:/app -w /app  microsoft/aspnetcore-build:2.0-stretch 
+ 1069  ls
+ 1070  docker ps
+ 1071  docker rm -r afe86e4f95db  76f185064f45
+ 1072  docker rm -f afe86e4f95db  76f185064f45
+ 1073  history
+ 1074  run -i -p 5000:80 -v ${pwd}:/app -w /app microsoft/aspnetcore-build bash -c "dotnet restore && dotnet run"
+ 1075  docker run -i -p 5000:80 -v ${pwd}:/app -w /app microsoft/aspnetcore-build bash -c "dotnet restore && dotnet run"
+ 1076  run -i -p 5000:80 -v `pwd`:/app -w /app microsoft/aspnetcore-build bash -c "dotnet restore && dotnet run"
+ 1077  docker run -i -p 5000:80 -v `pwd`:/app -w /app microsoft/aspnetcore-build bash -c "dotnet restore && dotnet run"
+ 1078  docker ps
+ 1079  docker run -it -p 5000:80 -v `pwd`:/app -w /app microsoft/aspnetcore-build
+ 1080  docker ps
+ 1081  docker exec cf10a9dda72d sh
+ 1082  docker -it exec cf10a9dda72d sh
+ 1083  docker exec -it  cf10a9dda72d sh
+ 1084  docker ps
+ 1085  docker exec -it  cf10a9dda72d sh
+ 1086  docker ps
+ 1087  docker stop cf10a9dda72d
+ 1088  docker ps
+ 1089  history
+ 1090  docker image build -t syeremy/elcavernas-site
+ 1091  docker image build -t syeremy/elcavernas-site .
+ 1092  docker images
+ 1093  docker image tag syeremy/elcavernas-site 192.168.1.4:5008/syeremy/elcavernas-site
+ 1094  docker images
+ 1095  docker push 192.168.1.4:5008/syeremy/elcavernas-site
+ 1096  ping elcavernas.com
+ 1097  ping registry.elcavernas.com
+ 1098  ping elcavernas.com
+ 1099  ls -l
+ 1100  dotnet elcavernas-site.dll
+ 1101  ls
+ 1102  cd elcavernas-site
+ 1103  ls
+ 1104  clear
+ 1105  docker images
+ 1106  docker build -t syeremy/elcavernas-site:multi-stage .
+ 1107  docker ps -a
+ 1108  docker ps -a -q
+ 1109  docker rm -f $(docker ps -a -q)
+ 1110  docker ps -a
+ 1111  docker image ls syeremy/elcavernas-site
+ 1112  docker inspect latest | jq
+ 1113  docker inspect 598b46482e52
+ 1114  docker inspect 598b46482e52 | jq
+ 1115  docker container inpect 598b46482e52 | jq
+ 1116  docker container inspect 598b46482e52 | jq
+ 1117  docker container inspect 598b46482e52 
+ 1118  docker  inspect 598b46482e52 
+ 1119  history
+ 1120  docker images
+ 1121  docker inspect 23d4bca7fef9
+ 1122  docker inspect 23d4bca7fef9 | jq
+ 1123  ssh syeremy@1092.168.1.4
+ 1124  ssh syeremy@192.168.1.4
+ 1125  docker info
+ 1126  docker images
+ 1127  docker inspect 23d4bca7fef9 | jq
+ 1128  brew install jq
+ 1129  sudo brew install jq
+ 1130  brew install jq
+ 1131  brew bundle dump
+ 1132  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ 1133  brew install jq
+ 1134  ls
+ 1135  ls -l
+ 1136  docker image ls syeremy
+ 1137  docker image ls syeremy/elcavernas-site
+ 1138  docker run --rm -it -p 8080:80 syeremy/elcavernas-site:multi-stage
+ 1139  docker run -d -p 8080:80 syeremy/elcavernas-site:multi-stage
+ 1140  docker ps
+ 1141  docker exec 1ca0ab3d02ea sh
+ 1142  history
+ 1143  docker exec -it 1ca0ab3d02ea sh
+ 1144  docker ps
+ 1145  docker images
+ 1146  docker ps
+ 1147  docker stop 1ca0ab3d02ea
+ 1148  ls -la
+ 1149  docker-compose up 
+ 1150  dockes pr
+ 1151  docker ps
+ 1152  docker-compose up --build 
+ 1153  docker ps
+ 1154  docke ps -a
+ 1155  docker ps -a
+ 1156  docker-compose up -d --build 
+ 1157  docker ps
+ 1158  history
+ 1159  docker images
+ 1160  docker run -it --rm -p 8080:80 syeremy/elcavernas-site:multi-stage
+ 1161  dokcer histoy ad0d29041231
+ 1162  dokcer history ad0d29041231
+ 1163  docker history ad0d29041231
+ 1164  docker history ad0d29041231 --no-trunc
+ 1165  docker build -t syeremy/elcavernas-site:multi-stage .
+ 1166  docker history ad0d29041231 --no-trunc
+ 1167  docker build -t syeremy/elcavernas-site:multi-stage .
+ 1168  docker images
+ 1169  docker image 7900a23979f1
+ 1170  docker history 7900a23979f1 --no-trunc
+ 1171  docker images
+ 1172  docker history ad0d29041231 --no-trunc
+ 1173  docker images
+ 1174  docker images -a
+ 1175  docker image prune
+ 1176  docker imges -a
+ 1177  docker images -a
+ 1178  docker ps -a
+ 1179  docker-compose down
+ 1180  docker ps
+ 1181  docke ps -a
+ 1182  docker ps -a
+ 1183  docker rm -f $(dokcer ps -a -q)
+ 1184  docker rm -f ${dokcer ps -a -q}
+ 1185  docker rm -f $(docker ps -a -q)
+ 1186  docker ps
+ 1187  docker-compose up --build 
+ 1188  docker ps -a
+ 1189  docker pull rabbitmq 
+ 1190  docker pull rabiitmq:3.7
+ 1191  docker pull rabbitmq:3.7
+ 1192  docker image ls rabbitmq
+ 1193  docker run -d --hostname my-rabbit --name some-rabbit rabbitmq
+ 1194  docker logs -f some-rabbit
+ 1195  docker logs some-rabbit
+ 1196  docker logs -f some-rabbit
+ 1197  docker ps 
+ 1198  docker rm -f 744fd130b44a
+ 1199  docker run -d -p 5672:5672  --hostname my-rabbit --name some-rabbit rabbitmq
+ 1200  docker rm -f 744fd130b44a
+ 1201  docker logs -f some-rabbit
+ 1202  docker ps
+ 1203  docker rm -f 8cf000bb412a
+ 1204  docker ps 
+ 1205  docker ps -a
+ 1206  docker rm -f $(docker ps -a -q)
+ 1207  docker ps
+ 1208  docker pull rabbitmq:management
+ 1209  docker run -d -p 15672:15672  --hostname my-rabbit --name some-rabbit rabbitmq:management
+ 1210  docker logs my-rabbit
+ 1211  docker ps
+ 1212  docker logs some-babbit 
+ 1213  docker logs some-rabbit 
+ 1214  clear
+ 1215  cls
+ 1216  clear
+ 1217  pwd
+ 1218  echo `pwd`
+ 1219  echo ${pwd}
+ 1220  dotnet new -h
+ 1221  dotnet new console -n Syeremy.RabbitmqReceiver
+ 1222  dotnet new console -n Syeremy.RabbitmqSender
+ 1223  dotnet new -h
+ 1224  dotnet new sln Rabbitmq.Demo1
+ 1225  dotnet new sln -n Rabbitmq.Demo1
+ 1226  ls -l
+ 1227  dotnet sln Rabbitmq.Demo1.sln add RabbitmqReceiver/Syeremy.RabbitmqReceiver.csproj
+ 1228  dotnet sln Rabbitmq.Demo1.sln add RabbitmqSender/Syeremy.RabbitmqSender.csproj
+ 1229  ls
+ 1230  cd RabbitmqReceiver
+ 1231  dotnet add package RabbitMQ.Client --version 5.0.1
+ 1232  cd ..
+ 1233  cd RabbitmqSender
+ 1234  dotnet add package RabbitMQ.Client --version 5.0.1
+ 1235  docker ps 
+ 1236  docker logs some-rabbit 
+ 1237  docker ps 
+ 1238  cd ps -a
+ 1239  docker ps -a
+ 1240  docker rm -f e4c6ecc3c3fb
+ 1241  docker run -d -p 15672:15672  --hostname localhost --name some-rabbit rabbitmq:management
+ 1242  docker rm -f 4245416ecde1651f169995f599b917c3d0122c4b39353eefbc003bd8c0e73667
+ 1243  docker run -d -p 15672:15672  --hostname my-rabbit --name some-rabbit rabbitmq:management
+ 1244  docker ps -a
+ 1245  docker rm 0f8cbdca34b6
+ 1246  docker run -d -p 15672:15672  --hostname my-rabbit --name some-rabbit rabbitmq:management
+ 1247  docker logs 6c80494996bb51177d993cefba5a21c67519ae38433871fcc4602efe427c4507
+ 1248  docker logs some-rabbit
+ 1249  docker ps -a
+ 1250  docker rm -f 6c80494996bb
+ 1251  docker run -d -p 15672:15672, 5672:5672  --hostname my-rabbit --name some-rabbit rabbitmq:management
+ 1252  docker run -d -p 15672:15672 -p 5672:5672  --hostname my-rabbit --name some-rabbit rabbitmq:management
+ 1253  telnet 
+ 1254  netstat -tln
+ 1255  netstat -t
+ 1256  netstat 
+ 1257  history
+ 1258  netstat -tln
+ 1259  \n
+ 1260  clear
+ 1261  history
+ 1262  netstat tcp
+ 1263  netstat tcp | grep 5672
+ 1264  netstat -tln
+ 1265  pwd
+ 1266  docker run -d -p 15672:15672 -p 5672:5672  --hostname my-rabbit --name some-rabbit rabbitmq:management
+ 1267  docker ps -a
+ 1268  docker rm -f 8d92fa2ecc65
+ 1269  ls
+ 1270  cd RabbitmqReceiver
+ 1271  ls
+ 1272  ls -l
+ 1273  docker-compose up
+ 1274  docker ps
+ 1275  history
+ 1276  \n
+ 1277  docker-compose up -d 
+ 1278  docker ps
+ 1279  docker exec -it 811a5a253e13 sh 
+ 1280  service rabbitmq-server start
+ 1281  docker ps
+ 1282  docker ps -a
+ 1283  docker-compose up -d
+ 1284  docker ps a
+ 1285  docker ps
+ 1286  docker ps -a
+ 1287  docker-compose up -d
+ 1288  docker ps -a
+ 1289  docker ps 
+ 1290  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher.sh ; exit;
+ 1291  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1.sh ; exit;
+ 1292  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2.sh ; exit;
+ 1293  history
+ 1294  ls
+ 1295  cd Syeremy.Subscriber
+ 1296  dotnet add package RabbitMQ.Client --version 5.0.1
+ 1297  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher110.sh ; exit;
+ 1298  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher91.sh ; exit;
+ 1299  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher159.sh ; exit;
+ 1300  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher166.sh ; exit;
+ 1301  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher13.sh ; exit;
+ 1302  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher190.sh ; exit;
+ 1303  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher245.sh ; exit;
+ 1304  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher177.sh ; exit;
+ 1305  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher123.sh ; exit;
+ 1306  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher241.sh ; exit;
+ 1307  cd ..
+ 1308  touch .gitignore
+ 1309  ls -l
+ 1310  vim .gitignore
+ 1311  cat .gitignore
+ 1312  git init
+ 1313  ls -la
+ 1314  git status
+ 1315  git add .
+ 1316  git status
+ 1317  git reset --hard HEAD
+ 1318  git reset --hard 
+ 1319  git status
+ 1320  git ls -la
+ 1321  ls -la
+ 1322  vim reflog show
+ 1323  git reflog
+ 1324  git history
+ 1325  git fsck --lost-found
+ 1326  git reset HEAD@{1}
+ 1327  ls -l
+ 1328  touch .gitignore
+ 1329  vim .gitignore
+ 1330  cat .gitignore
+ 1331  git add .
+ 1332  git status
+ 1333  git commit -m "init"
+ 1334  git branch 
+ 1335  bit branch -rr
+ 1336  git branch -r
+ 1337  gi branch -vv
+ 1338  git branch --v
+ 1339  git branch -vv
+ 1340  git push -u origin master
+ 1341  git add .
+ 1342  git status
+ 1343  git commit -m "RPC and source"
+ 1344  git push -u origin master
+ 1345  dotnet new -h
+ 1346  dotnet new sln -h
+ 1347  history
+ 1348  dotnet new sln -n Nservicebus.7rc
+ 1349  cd ..
+ 1350  ls
+ 1351  git init
+ 1352  git add .
+ 1353  git status
+ 1354  git commit -m "init"
+ 1355  git status
+ 1356  git remote add origin https://github.com/syeremy/nservicebus.git
+ 1357  git push -u master 
+ 1358  history
+ 1359  \n
+ 1360  git remote -v
+ 1361  git push -u origin master
+ 1362  git pull 
+ 1363  git pull origin master
+ 1364  git branch
+ 1365  git remote -v
+ 1366  git merge
+ 1367  git merge origin master
+ 1368  git init
+ 1369  git add .
+ 1370  git commit -m "init"
+ 1371  git remote add origin https://github.com/syeremy/nservicebus.git
+ 1372  git pusll -u origin master
+ 1373  git pull -u origin master
+ 1374  git push -u origin master
+ 1375  git pull orign master
+ 1376  git pull origin master
+ 1377  git merge origin/master
+ 1378  git checkout master
+ 1379  git branch
+ 1380  git remote -v
+ 1381  git remove -v
+ 1382  git remote -v
+ 1383  git branch
+ 1384  git pull origin/develop
+ 1385  git pull origin/master
+ 1386  git pull origin master
+ 1387  git fetch orgin master
+ 1388  git fetch orgin/master
+ 1389  git fetch origin
+ 1390  git merge origin
+ 1391  git merge origin master
+ 1392  git pull orgin master
+ 1393  git pull origin master
+ 1394  git pull origin master --allow-unrelated-histories
+ 1395  git pull 
+ 1396  git pull origin develop 
+ 1397  git pull origin master
+ 1398  git push -u origin master
+ 1399  ls
+ 1400  cd micro-nsbus6
+ 1401  l
+ 1402  ls
+ 1403  cd myCode
+ 1404  ls
+ 1405  dotnet new -h
+ 1406  dotnet new classlib
+ 1407  dotnet new classlib -n Syeremy.Messages
+ 1408  ls
+ 1409  rm -rf obj
+ 1410  rm Class1.cs
+ 1411  rm myCode.csproj
+ 1412  ls
+ 1413  history
+ 1414  dotnet sln Nservicebus.7rc.sln add Syeremy.Messages/Syeremy.Messages.csproj
+ 1415  cd Syeremy.Messages/
+ 1416  ls
+ 1417  dotnet add package NServiceBus --version 7.0.0-rc0002
+ 1418  dotnet restore
+ 1419  dotnet new console -n Syeremy.Order
+ 1420  dotnet sl 
+ 1421  cd ..
+ 1422  ls
+ 1423  dotet new console -n Syeremy.Order
+ 1424  dotnet new console -n Syeremy.Order
+ 1425  dotet sln Nservicebus.7rc.sln add Syeremy.Order/Syeremy.Order.csproj
+ 1426  dotnet sln Nservicebus.7rc.sln add Syeremy.Order/Syeremy.Order.csproj
+ 1427  ls
+ 1428  cd Syeremy.Order
+ 1429  ls
+ 1430  dotnet add package NServiceBus --version 7.0.0-rc0002
+ 1431  cd ..
+ 1432  cd Syeremy.Order
+ 1433  dotnet add package RabbitMQ.Client --version 5.1.0-rc1
+ 1434  dotnet add package NServiceBus.RabbitMQ --version 5.0.0-rc0001
+ 1435  docker ps
+ 1436  docker-compose down
+ 1437  docker ps
+ 1438  docker rm -f a901e0207746
+ 1439  docker ps
+ 1440  docker logs -f a901e0207746
+ 1441  docker info
+ 1442  docker ps
+ 1443  docker stop a901e0207746
+ 1444  docker-compose up -d
+ 1445  git status
+ 1446  git add .
+ 1447  git status
+ 1448  git commit -m "nservivebus-rabbitmq-init"
+ 1449  git push origin master
+ 1450  dotnet new -h
+ 1451  dotnet new web -n syeremy.Rest
+ 1452  rm -rf syeremy.Rest
+ 1453  ls
+ 1454  dotnet new web -n Syeremy.Rest
+ 1455  dotnet sln Nservicebus.7rc.sln add Syeremy.Rest/Syeremy.Rest.csproj
+ 1456  cd Syeremy.Rest
+ 1457  historu
+ 1458  hitory
+ 1459  history
+ 1460  otnet add package RabbitMQ.Client --version 5.1.0-rc1
+ 1461  dotnet add package RabbitMQ.Client --version 5.1.0-rc1
+ 1462  dotnet add package NServiceBus --version 7.0.0-rc0002
+ 1463  add package NServiceBus.RabbitMQ --version 5.0.0-rc0001
+ 1464  dotnet add package NServiceBus.RabbitMQ --version 5.0.0-rc0001
+ 1465  dotnet restore
+ 1466  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher.sh ; exit;
+ 1467  dotnet clean
+ 1468  dotnet restore
+ 1469  git add .
+ 1470  git commit -m "producer-consumer working, but very slooooooooooooow\n
+ 1471  git add .
+ 1472  history
+ 1473  git commit -m "producer-consumer working, but very slooooow \n\n\n\n\n\n
+ 1474  git commit -m "p'oducer-consumer working, but very sloooooOooOooooOOOOOw'\n\n\n\n\n\n\n\n\n\n\n\n\n
+ 1475  git commit -m "producer-consumer working, but very slooooooooooooow\n\n\n\n
+ 1476  git commit -m "working, but super slowwwww"
+ 1477  git push origin master
+ 1478  docker ps]
+ 1479  docker ps
+ 1480  cd ..
+ 1481  cd rabbitmq
+ 1482  ls
+ 1483  cd rabbitmq-for-developers
+ 1484  cd
+ 1485  cd ~/dev/projects/pluralsight/rabbitmq/rabbitmq-for-developers/demo-1
+ 1486  ls
+ 1487  docker-compose up -d
+ 1488  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher.sh ; exit;
+ 1489  git status
+ 1490  git add .
+ 1491  git status
+ 1492  cd ..
+ 1493  cm nservicebus
+ 1494  ls
+ 1495  cd nservicebus
+ 1496  ls
+ 1497  git add .
+ 1498  git status
+ 1499  history
+ 1500  git commit -m "adding code from Vanlightly nservicebus-rabbitmq demo"
+ 1501  git push origin master
+ 1502  dotnet info
+ 1503  fotnet -info
+ 1504  dotnet --info
+ 1505  ~
+ 1506  /dev/projects/pluralsight/nservicebus/micro-nsbus6/myCode 
+ 1507  /dev/projects/pluralsight/nservicebus/micro-nsbus6/myCode
+ 1508  "/dev/projects/pluralsight/nservicebus/micro-nsbus6/myCode "
+ 1509  "/dev/projects/pluralsight/nservicebus/micro-nsbus6/myCode"
+ 1510  "~/dev/projects/pluralsight/nservicebus/micro-nsbus6/myCode"
+ 1511  cd ~/dev/projects/pluralsight/nservicebus/micro-nsbus6/myCode 
+ 1512  dotnet restore
+ 1513  dotnet --info
+ 1514  dotnet build
+ 1515  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1.sh ; exit;
+ 1516  dotnet new console -n Syeremy.ClientUI
+ 1517  dotnet new sln Syeremy.Nsb.GettingStarted
+ 1518  dotnet new sln -n Syeremy.Nsb.GettingStarted
+ 1519  git sln Syeremy.Nsb.GettingStarted.sln add Syeremy.ClientUI
+ 1520  dotnet sln Syeremy.Nsb.GettingStarted.sln add Syeremy.ClientUI
+ 1521  dotnet sln Syeremy.Nsb.GettingStarted.sln add Syeremy.ClientUI/Syeremy.ClientUI.csproj
+ 1522  ls
+ 1523  cd Syeremy.ClientUI
+ 1524  ;s
+ 1525  dotnet add package NServiceBus --version 7.0.0-rc0002
+ 1526  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2.sh ; exit;
+ 1527  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher107.sh ; exit;
+ 1528  ls
+ 1529  dotnet new -h
+ 1530  dotnet new classlib -n Syeremy.Messages
+ 1531  dotnet sln Syeremy.Nsb.GettingStarted.sln add Syeremy.Messages/Syeremy.Messages.csproj
+ 1532  history
+ 1533  cd Syeremy.Messages
+ 1534  dotnet add package NServiceBus --version 7.0.0-rc0002
+ 1535  cd ..
+ 1536  cd Syeremy.Messages
+ 1537  ls
+ 1538  vim Syeremy.Messages.csproj
+ 1539  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher50.sh ; exit;
+ 1540  git status
+ 1541  git add .
+ 1542  git commit
+ 1543  git push origin master
+ 1544  git checkout -b develop 
+ 1545  git status
+ 1546  git checkout master
+ 1547  git status
+ 1548  git log
+ 1549  git commit -m "done"
+ 1550  git add .
+ 1551  git status
+ 1552  git add .
+ 1553  git status
+ 1554  cd ..
+ 1555  cd nservicebus
+ 1556  git add .
+ 1557  git status
+ 1558  git commit -m "support c# 7.2 and doing nsb getting-started module2"
+ 1559  git branch -D develop
+ 1560  git branch
+ 1561  git checkout -b develop
+ 1562  git push origin develop
+ 1563  git checkout master
+ 1564  git push origin master
+ 1565  git checkout develop
+ 1566  git branch
+ 1567  docker-compose down
+ 1568  docker ps
+ 1569  docker-compose down -f
+ 1570  docker-compose down
+ 1571  docker ps
+ 1572  docke rm -f a901e0207746
+ 1573  docker rm -f a901e0207746
+ 1574  docker-compose down
+ 1575  ls
+ 1576  vim docker-compose.yml
+ 1577  docker-compose up -d
+ 1578  docker ps
+ 1579  cls
+ 1580  cd ..
+ 1581  ls
+ 1582  dotnet new console -n Syeremy.Sales
+ 1583  cd Syeremy.ClientUI
+ 1584  ls
+ 1585  vim Syeremy.ClientUI.csproj
+ 1586  cd ..
+ 1587  ls
+ 1588  cd Syeremy.Sales
+ 1589  vim Syeremy.Sales.csproj
+ 1590  dotnet restore
+ 1591  cd ..
+ 1592  dotnet sln Syeremy.Nsb.GettingStarted.sln add Syeremy.Sales/Syeremy.Sales.csproj
+ 1593  s
+ 1594  ls
+ 1595  cd ..
+ 1596  ks
+ 1597  ls
+ 1598  cd ..
+ 1599  ls
+ 1600  cd nservicebus
+ 1601  ls
+ 1602  cd docker
+ 1603  docker-compose down
+ 1604  docker-compose up -d
+ 1605  docker ps
+ 1606  ]]
+ 1607  man
+ 1608  sdk ls
+ 1609  sdk java ls
+ 1610  dsk list java
+ 1611  sdk list java
+ 1612  sdk -h
+ 1613  dsk ungrade java
+ 1614  sdk upgrade java
+ 1615  sdk -h
+ 1616  sdk list -h
+ 1617  sdk list
+ 1618  dsk list java
+ 1619  sdk list java
+ 1620  sdk selfupdate
+ 1621  dsk list java
+ 1622  sdk list java
+ 1623  java --version
+ 1624  java --v
+ 1625  java -version
+ 1626  sdk use java 8.0.161-oracle
+ 1627  sdk list java
+ 1628  java -version
+ 1629  sdk use java 8.0.161-oracle
+ 1630  sdk list java
+ 1631  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher.sh ; exit;
+ 1632  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1.sh ; exit;
+ 1633  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2.sh ; exit;
+ 1634  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher76.sh ; exit;
+ 1635  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher29.sh ; exit;
+ 1636  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher164.sh ; exit;
+ 1637  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher37.sh ; exit;
+ 1638  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher222.sh ; exit;
+ 1639  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher207.sh ; exit;
+ 1640  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher283.sh ; exit;
+ 1641  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher319.sh ; exit;
+ 1642  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher223.sh ; exit;
+ 1643  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher372.sh ; exit;
+ 1644  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher294.sh ; exit;
+ 1645  ls -la
+ 1646  git add .
+ 1647  git status
+ 1648  cd ..
+ 1649  git add .
+ 1650  git status
+ 1651  git commit -m "module 3 - multi-endpoints"
+ 1652  git push origin develop
+ 1653  git status
+ 1654  git checkout master
+ 1655  git pull rebase
+ 1656  git pull -rebase
+ 1657  git pull --rebase
+ 1658  git checkout develop
+ 1659  git pull --rebase
+ 1660  git branch --set-upstream-to=origin/develop develop
+ 1661  git pull --rebase
+ 1662  git checkout master
+ 1663  git reset --hard origin/master
+ 1664  git fetch --all
+ 1665  git reset --hard origin/master
+ 1666  git checkout develop
+ 1667  git pull --rebase
+ 1668  git rebase master
+ 1669  cd ..
+ 1670  cd docker
+ 1671  git log --oneline
+ 1672  git rebase master
+ 1673  git checkout master
+ 1674  git branch
+ 1675  git ranch
+ 1676  git branch
+ 1677  git 
+ 1678  git checkout master
+ 1679  git branch 
+ 1680  cd dev/projects/pluralsight/nservicebus
+ 1681  git branch
+ 1682  ls
+ 1683  cd nsb-getting-started
+ 1684  ls
+ 1685  git checkout develop
+ 1686  git branch
+ 1687  git checkout master
+ 1688  git rebase master topic
+ 1689  git rebase master develop
+ 1690  git rebase master
+ 1691  git checkout develop
+ 1692  git rebase develop
+ 1693  git rebase develop master
+ 1694  git log --oneline
+ 1695  git push
+ 1696  git checkout develop
+ 1697  git status
+ 1698  cd nsb-getting-started
+ 1699  ls
+ 1700  dotnet new console -n Syeremy.Billing
+ 1701  dotnet new console -n Syeremy.Shipping
+ 1702  dotnet sln Syeremy.Nsb.GettingStarted.sln add Syeremy.Billing/Syeremy.Billing.csproj
+ 1703  dotnet sln Syeremy.Nsb.GettingStarted.sln add Syeremy.Shipping/Syeremy.Shipping.csproj
+ 1704  dotnet clear
+ 1705  ls
+ 1706  dotnet rebuild
+ 1707  dotnet
+ 1708  dotnet -h
+ 1709  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher188.sh ; exit;
+ 1710  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher369.sh ; exit;
+ 1711  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher84.sh ; exit;
+ 1712  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher172.sh ; exit;
+ 1713  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher541.sh ; exit;
+ 1714  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher262.sh ; exit;
+ 1715  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher312.sh ; exit;
+ 1716  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher87.sh ; exit;
+ 1717  git add .
+ 1718  git commit -m "module 4 : Publishing Events"
+ 1719  git push
+ 1720  git checkout master
+ 1721  git fetch --all
+ 1722  git pull --rebase
+ 1723  git master develop
+ 1724  git rebase master develop
+ 1725  git rebase develop master
+ 1726  git push
+ 1727  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher504.sh ; exit;
+ 1728  touch license.txt
+ 1729  git checkout develop
+ 1730  git branch
+ 1731  cd ..
+ 1732  ls
+ 1733  git add .
+ 1734  git status
+ 1735  ls -la
+ 1736  git commit -m "Adding License configuration"
+ 1737  git push 
+ 1738  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher330.sh ; exit;
+ 1739  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher114.sh ; exit;
+ 1740  ls
+ 1741  cd nsb-getting-started
+ 1742  ls
+ 1743  cd Syeremy.ClientUI
+ 1744  dotnet publish
+ 1745  dotnet puslish
+ 1746  dotnet publish
+ 1747  dotnet publish 
+ 1748  0/
+ 1749  dotnet add package Microsoft.Extensions.Configuration --version 2.0.1
+ 1750  dotnet add package Microsoft.Extensions.Configuration.FileExtensions --version 2.0.1
+ 1751  dotnet add package Microsoft.Extensions.Configuration.Json --version 2.0.1
+ 1752  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher264.sh ; exit;
+ 1753  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher457.sh ; exit;
+ 1754  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher692.sh ; exit;
+ 1755  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher111.sh ; exit;
+ 1756  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher781.sh ; exit;
+ 1757  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher263.sh ; exit;
+ 1758  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher136.sh ; exit;
+ 1759  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher961.sh ; exit;
+ 1760  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher803.sh ; exit;
+ 1761  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1032.sh ; exit;
+ 1762  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher805.sh ; exit;
+ 1763  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher925.sh ; exit;
+ 1764  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher174.sh ; exit;
+ 1765  dotnet add package Microsoft.Extensions.Logging
+ 1766  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher684.sh ; exit;
+ 1767  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1110.sh ; exit;
+ 1768  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher599.sh ; exit;
+ 1769  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher426.sh ; exit;
+ 1770  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher46.sh ; exit;
+ 1771  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher377.sh ; exit;
+ 1772  git reset --hard head
+ 1773  git status
+ 1774  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher783.sh ; exit;
+ 1775  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher157.sh ; exit;
+ 1776  git commit -m "adding Debug log level & using license from /Users/syeremy/.local/share/ParticularSoftware/license.xml"
+ 1777  git commit -m "adding Debug log level"
+ 1778  git status
+ 1779  git commit -m "debug"
+ 1780  git add .
+ 1781  git status
+ 1782  git commit -m "adding Debug log level & using license from /Users/syeremy/.local/share/ParticularSoftware/license.xml"
+ 1783  git push
+ 1784  git status
+ 1785  git checkout master
+ 1786  git status
+ 1787  git reset --hard head
+ 1788  git branch
+ 1789  git status
+ 1790  git checkout master
+ 1791  git stats
+ 1792  git status
+ 1793  git reset --hard head
+ 1794  git checkout develop
+ 1795  git status
+ 1796  git add -u
+ 1797  git status
+ 1798  git reset --hard head
+ 1799  git branch
+ 1800  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher546.sh ; exit;
+ 1801  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher154.sh ; exit;
+ 1802  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1019.sh ; exit;
+ 1803  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher835.sh ; exit;
+ 1804  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1404.sh ; exit;
+ 1805  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher249.sh ; exit;
+ 1806  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1311.sh ; exit;
+ 1807  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1453.sh ; exit;
+ 1808  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher561.sh ; exit;
+ 1809  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher749.sh ; exit;
+ 1810  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1203.sh ; exit;
+ 1811  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1068.sh ; exit;
+ 1812  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1126.sh ; exit;
+ 1813  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher93.sh ; exit;
+ 1814  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1320.sh ; exit;
+ 1815  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher97.sh ; exit;
+ 1816  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher522.sh ; exit;
+ 1817  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1764.sh ; exit;
+ 1818  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1580.sh ; exit;
+ 1819  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher368.sh ; exit;
+ 1820  git status
+ 1821  git add -u
+ 1822  git status
+ 1823  git commit -m "reply errors"
+ 1824  git push
+ 1825  git rebase develop master
+ 1826  git branch
+ 1827  git checkout develop
+ 1828  dotnet build
+ 1829  git status
+ 1830  git add .
+ 1831  git status
+ 1832  git commit -m "Start nsb-rabbitmq integration"
+ 1833  git push
+ 1834  cd Syeremy.Rabbit.ClientUI
+ 1835  dotnet add package NServiceBus.RabbitMQ --version 5.0.0-rc0001
+ 1836  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1422.sh ; exit;
+ 1837  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1136.sh ; exit;
+ 1838  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1773.sh ; exit;
+ 1839  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2019.sh ; exit;
+ 1840  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1581.sh ; exit;
+ 1841  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1082.sh ; exit;
+ 1842  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2152.sh ; exit;
+ 1843  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher411.sh ; exit;
+ 1844  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1368.sh ; exit;
+ 1845  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2168.sh ; exit;
+ 1846  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher413.sh ; exit;
+ 1847  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1856.sh ; exit;
+ 1848  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher58.sh ; exit;
+ 1849  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1966.sh ; exit;
+ 1850  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1852.sh ; exit;
+ 1851  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2054.sh ; exit;
+ 1852  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1011.sh ; exit;
+ 1853  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2224.sh ; exit;
+ 1854  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher876.sh ; exit;
+ 1855  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1429.sh ; exit;
+ 1856  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1122.sh ; exit;
+ 1857  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1066.sh ; exit;
+ 1858  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher125.sh ; exit;
+ 1859  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher513.sh ; exit;
+ 1860  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2228.sh ; exit;
+ 1861  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1416.sh ; exit;
+ 1862  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2276.sh ; exit;
+ 1863  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher857.sh ; exit;
+ 1864  cd ..
+ 1865  git status
+ 1866  git add .
+ 1867  git status
+ 1868  git commit -m "RabbitMQ :: Direct Routing Topology"
+ 1869  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher450.sh ; exit;
+ 1870  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher199.sh ; exit;
+ 1871  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1143.sh ; exit;
+ 1872  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2632.sh ; exit;
+ 1873  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher763.sh ; exit;
+ 1874  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1070.sh ; exit;
+ 1875  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1978.sh ; exit;
+ 1876  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2389.sh ; exit;
+ 1877  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher71.sh ; exit;
+ 1878  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher198.sh ; exit;
+ 1879  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2921.sh ; exit;
+ 1880  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher566.sh ; exit;
+ 1881  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher909.sh ; exit;
+ 1882  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2027.sh ; exit;
+ 1883  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1094.sh ; exit;
+ 1884  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2498.sh ; exit;
+ 1885  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1533.sh ; exit;
+ 1886  git status
+ 1887  git add -u
+ 1888  git status
+ 1889  git commit -m "Fix for OrderBilled Handler"
+ 1890  git push 
+ 1891  git rebase develop master
+ 1892  git push 
+ 1893  git reset --hard head
+ 1894  git status
+ 1895  git checkout develop
+ 1896  git status
+ 1897  git log --oneline
+ 1898  git status
+ 1899  git add .
+ 1900  git status
+ 1901  git commit -m "clening up solution"
+ 1902  git push 
+ 1903  git add .
+ 1904  git commit -m "cleaning up solution"
+ 1905  git push
+ 1906  ls
+ 1907  cd ..
+ 1908  ls
+ 1909  cd docker
+ 1910  docker-compose down
+ 1911  docker ps
+ 1912  docker rm -f 53faf3bec7c8
+ 1913  ///
+ 1914  dev/projects/pluralsight/nservicebus/docker~/dev/projects/pluralsight/nservicebus/docker
+ 1915  ~/dev/projects/pluralsight/nservicebus/docker
+ 1916  ls
+ 1917  docker ps
+ 1918  docker stop
+ 1919  docker stop 53faf3bec7c8
+ 1920  docker ps
+ 1921  docker ps -a
+ 1922  docker rm -f $(docker ps -a -q)
+ 1923  docker ps -a -q]
+ 1924  docker ps -a -q
+ 1925  vim docker-compose.yml
+ 1926  docker-compose up -d
+ 1927  docker-compose down
+ 1928  docker-compose up -d
+ 1929  git status
+ 1930  git reset --hard head
+ 1931  git status
+ 1932  git checkout -b direct-routing-topology
+ 1933  git push
+ 1934  git push --set-upstream origin direct-routing-topology
+ 1935  git checkout develop
+ 1936  git branch
+ 1937  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher3226.sh ; exit;
+ 1938  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher883.sh ; exit;
+ 1939  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1260.sh ; exit;
+ 1940  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2373.sh ; exit;
+ 1941  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher3133.sh ; exit;
+ 1942  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher3322.sh ; exit;
+ 1943  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher140.sh ; exit;
+ 1944  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1674.sh ; exit;
+ 1945  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2555.sh ; exit;
+ 1946  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2302.sh ; exit;
+ 1947  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2609.sh ; exit;
+ 1948  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher495.sh ; exit;
+ 1949  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2719.sh ; exit;
+ 1950  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher802.sh ; exit;
+ 1951  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1765.sh ; exit;
+ 1952  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher571.sh ; exit;
+ 1953  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2579.sh ; exit;
+ 1954  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher209.sh ; exit;
+ 1955  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1482.sh ; exit;
+ 1956  ls -la
+ 1957  ls -a
+ 1958  ls -l
+ 1959  dotnet Syeremy.Rabbit.ClientUI.dll
+ 1960  di
+ 1961  cd ..
+ 1962  dotnet Syeremy.Rabbit.Sales.dll
+ 1963  cd ..
+ 1964  cd..
+ 1965  cd ..
+ 1966  cd Syeremy.Rabbit.Billing
+ 1967  cd /bin/
+ 1968  ~/dev/projects/pluralsight/nservicebus/nsb-getting-started-rabbitmq/Syeremy.Rabbit.Billing
+ 1969  cd bin/Debug/netcoreapp2.0
+ 1970  dotnet Syeremy.Rabbit.Billing.dll
+ 1971  ~/dev/projects/pluralsight/nservicebus/nsb-getting-started-rabbitmq/S
+ 1972  ~/dev/projects/pluralsight/nservicebus/nsb-getting-started-rabbitmq/
+ 1973  cd Syeremy.Rabbit.Shipping
+ 1974  cd bin/Debug/netcoreapp2.0
+ 1975  dotnet Syeremy.Rabbit.Shipping.dll
+ 1976  git status
+ 1977  git add -u
+ 1978  git status
+ 1979  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2495.sh ; exit;
+ 1980  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2124.sh ; exit;
+ 1981  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher27.sh ; exit;
+ 1982  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher3644.sh ; exit;
+ 1983  git status
+ 1984  git add -u
+ 1985  git status
+ 1986  git commit -m ""
+ 1987  git commit -m "Conventional Routing Topology"
+ 1988  git push 
+ 1989  git rebase develop master
+ 1990  git push
+ 1991  git log --oneline
+ 1992  docker ps -a
+ 1993  docker ps
+ 1994  docker rm -f 6b907e8050bc
+ 1995  docker ps -a
+ 1996  branch
+ 1997  git branch
+ 1998  git log --oneline
+ 1999  git checkout -b conventional-routing-topology
+ 2000  git checkout master
+ 2001  git log --oneline
+ 2002  git checkout conventional-routing-topology
+ 2003  git push 
+ 2004  git push --set-upstream origin conventional-routing-topology
+ 2005  git checkout master
+ 2006  git log --oneline
+ 2007  git checkout develop
+ 2008  git status
+ 2009  git add -u
+ 2010  git status
+ 2011  git add .
+ 2012  git status
+ 2013  pwd
+ 2014  /Users/syeremy/dev/projects/pluralsight/nservicebus/nsb-getting-started-rabbitmq
+ 2015  cd ..
+ 2016  ls
+ 2017  cd docker
+ 2018  docker ps -a
+ 2019  ls
+ 2020  history
+ 2021  docker-compose up -d
+ 2022  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher.sh ; exit;
+ 2023  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1.sh ; exit;
+ 2024  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher2.sh ; exit;
+ 2025  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher59.sh ; exit;
+ 2026  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher15.sh ; exit;
+ 2027  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher104.sh ; exit;
+ 2028  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher102.sh ; exit;
+ 2029  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher132.sh ; exit;
+ 2030  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher76.sh ; exit;
+ 2031  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher10.sh ; exit;
+ 2032  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher318.sh ; exit;
+ 2033  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher350.sh ; exit;
+ 2034  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher23.sh ; exit;
+ 2035  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher133.sh ; exit;
+ 2036  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher399.sh ; exit;
+ 2037  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher116.sh ; exit;
+ 2038  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher285.sh ; exit;
+ 2039  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher444.sh ; exit;
+ 2040  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher522.sh ; exit;
+ 2041  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher118.sh ; exit;
+ 2042  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher281.sh ; exit;
+ 2043  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher365.sh ; exit;
+ 2044  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher645.sh ; exit;
+ 2045  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher648.sh ; exit;
+ 2046  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher502.sh ; exit;
+ 2047  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher731.sh ; exit;
+ 2048  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher797.sh ; exit;
+ 2049  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher483.sh ; exit;
+ 2050  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher128.sh ; exit;
+ 2051  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher270.sh ; exit;
+ 2052  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher674.sh ; exit;
+ 2053  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher704.sh ; exit;
+ 2054  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher130.sh ; exit;
+ 2055  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher460.sh ; exit;
+ 2056  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher759.sh ; exit;
+ 2057  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher723.sh ; exit;
+ 2058  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher825.sh ; exit;
+ 2059  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher549.sh ; exit;
+ 2060  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher77.sh ; exit;
+ 2061  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher401.sh ; exit;
+ 2062  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1044.sh ; exit;
+ 2063  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher358.sh ; exit;
+ 2064  git add .
+ 2065  git add -u
+ 2066  git status
+ 2067  git commit -m "Custom Routing Topology"
+ 2068  git push 
+ 2069  git checkout -b custom-routing-topology
+ 2070  git push 
+ 2071  git push --set-upstream origin custom-routing-topology
+ 2072  git checkout develop
+ 2073  git rebase develop master
+ 2074  git log --oneline
+ 2075  git push 
+ 2076  git checkout develop
+ 2077  ssh 192.168.1.4
+ 2078  history
+ 2079  mssql -s 192.168.1.14 -P Passw)rd
+ 2080  mssql -s 192.168.1.14 -P Passw0rd
+ 2081  mssql -s 192.168.1.14 -p Passw0rd
+ 2082  mssql -s 192.168.1.4 -p Passw0rd
+ 2083  mssql -s 192.168.1.4 -p Passw0rd -i /Users/syeremy/Downloads/nsb-rabbit-mq.create-trace-db.sql
+ 2084  docker cp SqlServerDocker:/var/opt/mssql/backup/nsb-rabbit-mq.create-trace-db.sql /Users/syeremy/Downloads/nsb-rabbit-mq.create-trace-db.sql
+ 2085  history
+ 2086  scp /Users/syeremy/Downloads/nsb-rabbit-mq.create-trace-db.sql  syeremy@192.168.1.4:/volume1/elCavernas.shared/yere-tmp
+ 2087  ssh 192.168.1.4
+ 2088  mssql -s 192.168.1.4 -p Passw0rd
+ 2089  docker exec -it SqlServerDocker /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Passw0rd -i /var/opt/mssql/backup/nsb-rabbit-mq.create-trace-db.sql
+ 2090  scp /Users/syeremy/Downloads/nsb-rabbit-mq.create-trace-db.sql  syeremy@192.168.1.4:/volume1/elCavernas.shared/yere-tmp
+ 2091  status
+ 2092  git status
+ 2093  git checkout -b recoverability
+ 2094  ls
+ 2095  cd Syeremy.Rabbit.Sales
+ 2096  dotnet add package Microsoft.Extensions.Configuration --version 2.0.1
+ 2097  dotnet add package Microsoft.Extensions.Configuration.Json --version 2.0.1
+ 2098  dotnet add package NServiceBus.Persistence.Sql --version 3.1.0
+ 2099  dotnet remove  package NServiceBus.Persistence.Sql --version 3.1.0
+ 2100  dotnet remove  package NServiceBus.Persistence.Sql 
+ 2101  dotnet add package NServiceBus.Persistence.Sql --version 4.1.0-beta0001
+ 2102  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1051.sh ; exit;
+ 2103  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher613.sh ; exit;
+ 2104  mssql -s 192.168.1.4 -p Passw0rd
+ 2105  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1055.sh ; exit;
+ 2106  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1026.sh ; exit;
+ 2107  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1206.sh ; exit;
+ 2108  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1255.sh ; exit;
+ 2109  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher835.sh ; exit;
+ 2110  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher856.sh ; exit;
+ 2111  cd ..
+ 2112  ls -l
+ 2113  git checkout -b recoverability-timeout-manager
+ 2114  git status
+ 2115  git commint -m "recoverability-timeout-manager"
+ 2116  git commit -m "recoverability-timeout-manager"
+ 2117  git push
+ 2118  git status
+ 2119  git add -u
+ 2120  git status
+ 2121  git commit -m "recoverability-timeout-manager"
+ 2122  git status
+ 2123  git push
+ 2124  git push --set-upstream origin recoverability-timeout-manager
+ 2125  git rebase recoverability-timeout-manager develop
+ 2126  git branch
+ 2127  git branch -d recoverability
+ 2128  git branch
+ 2129  git branch -vv
+ 2130  dotnet remove package 
+ 2131  dotnet remove package NServiceBus.Persistence.Sql
+ 2132  cd Syeremy.Rabbit.Sales
+ 2133  dotnet remove package NServiceBus.Persistence.Sql
+ 2134  dotnet add package NServiceBus.Newtonsoft.Json --version 2.1.0-beta0001
+ 2135  dotnet add package System.Data.SqlClient --version 4.5.0-preview2-26406-04
+ 2136  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher272.sh ; exit;
+ 2137  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher626.sh ; exit;
+ 2138  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1405.sh ; exit;
+ 2139  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1394.sh ; exit;
+ 2140  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher883.sh ; exit;
+ 2141  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher405.sh ; exit;
+ 2142  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1663.sh ; exit;
+ 2143  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1559.sh ; exit;
+ 2144  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher286.sh ; exit;
+ 2145  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher175.sh ; exit;
+ 2146  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher341.sh ; exit;
+ 2147  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher24.sh ; exit;
+ 2148  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher809.sh ; exit;
+ 2149  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher29.sh ; exit;
+ 2150  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher391.sh ; exit;
+ 2151  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher232.sh ; exit;
+ 2152  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1393.sh ; exit;
+ 2153  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher485.sh ; exit;
+ 2154  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1887.sh ; exit;
+ 2155  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher647.sh ; exit;
+ 2156  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1564.sh ; exit;
+ 2157  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher887.sh ; exit;
+ 2158  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher25.sh ; exit;
+ 2159  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1557.sh ; exit;
+ 2160  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1141.sh ; exit;
+ 2161  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher1867.sh ; exit;
+ 2162  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher534.sh ; exit;
+ 2163  /Users/syeremy/Library/Caches/Rider2018.1/tmp/terminalLauncher447.sh ; exit;
+ 2164  git checkout -b recoverability-native-delay
+ 2165  git status
+ 2166  git add -u
+ 2167  git commit -m "recoverability-native-delay"
+ 2168  git push 
+ 2169  git push --set-upstream origin recoverability-native-delay
+ 2170  git rebase recoverability-native-delay develop
+ 2171  git push 
+ 2172  git branch
+ 2173  dotnet new sln Syeremy.Govrnanza.Registry
+ 2174  dotnet new sln -n Syeremy.Govrnanza.Registry
+ 2175  dotnet new sln -n ElCavernas.Govrnanza.Registry
+ 2176  history
+ 2177  dotnet new web -n ElCavernas.Govrnz.Registry.WebApi
+ 2178  dotnet new web -n ElCavernas.Govrnz.Registry.Core
+ 2179  dotnet new web -n ElCavernas.Govrnz.Registry.Backend
+ 2180  dotnet sln ElCavernas.Govrnz.Registry.sln add ElCavernas.Govrnz.Registry.WebApi/ElCavernas.Govrnz.Registry.WebApi.csproj
+ 2181  dotbet sln ElCavernas.Govrnz.Registry.sln add ElCavernas.Govrnz.Registry.Core/ElCavernas.Govrnz.Registry.Core.csproj
+ 2182  dotnet sln ElCavernas.Govrnz.Registry.sln add ElCavernas.Govrnz.Registry.Core/ElCavernas.Govrnz.Registry.Core.csproj
+ 2183  dotnet sln ElCavernas.Govrnz.Registry.sln add ElCavernas.Govrnz.Registry.Backend/ElCavernas.Govrnz.Registry.Backend.csproj
+ 2184  dotnet new classlib -n ElCavernas.Govrnz.Registry.Core
+ 2185  dotnet new classlib  -n ElCavernas.Govrnz.Registry.Backend
+ 2186  cd ..
+ 2187  git init 
+ 2188  git add .
+ 2189  git commit -m "initial"
+ 2190  git remote add origin https://github.com/syeremy/microservices.git
+ 2191  git push -u origin master
+ 2192  git checkout -b develop
+ 2193  git push -u
+ 2194  git push -u origin develop
+ 2195  cd vanlightly/source/registry/ElCavernas.Govrnz.Registry.WebApi
+ 2196  dotnet add package Swashbuckle.AspNetCore --version 2.4.0
+ 2197  git add .
+ 2198  git commit -m "cleaning up initial project"
+ 2199  git push
+ 2200  cd ..
+ 2201  git add .
+ 2202  git commit -m "cleaning up initial project"
+ 2203  git pus
+ 2204  git push 
+ 2205  dotnet version
+ 2206  dotnet --version
+ 2207  cd 
+ 2208  cd ..
+ 2209  dotnet sln ElCavernas.Govrnz.Registry.sln add Govrnz.Registry.WebApi/Govrnz.Registry.WebApi.csproj
+ 2210  dotnet new web -n Govrnz.Registry.WebApi
+ 2211  cd Govrnz.Registry.WebApi
+ 2212  dotnet add package Microsoft.NETCore.App --version 2.1.0-preview2-26406-04
+ 2213  dotnet --info
+ 2214  dotnet add package Microsoft.NETCore.App --version 2.1.0-preview2-26406-04
+ 2215  cd ..
+ 2216  dotnet new help
+ 2217  dotnet new classlib -n Test
+ 2218  dotnet --version
+ 2219  dotnet --info
+ 2220  dotnet new
+ 2221  dotnet new classlib -n Test -f netcoreapp2.1
+ 2222  dotnet --info
+ 2223  cd Govrnz.Registry.WebApi
+ 2224  dotnet restore
+ 2225  dotnet --info
+ 2226  dotnet restore
+ 2227  dotnete build
+ 2228  dotnet build
+ 2229  dotnet new classlib -n Test2 -f netcoreapp2.1
+ 2230  cd ..
+ 2231  cd Govrnz.Registry.WebApi
+ 2232  dotnet restore
+ 2233  cd ..
+ 2234  git add .
+ 2235  git commit -m "update dotnet-core  sdk and runtime to 2.1-preview2"
+ 2236  git push
+ 2237  git rebase develop master
+ 2238  git push
+ 2239  git checkout develop
+ 2240  dotnet new classlib -n ElCavernas.Govrnz.Extensions.Configuration
+ 2241  ls
+ 2242  dotnet add package Microsoft.Extensions.Configuration --version 2.1.0-preview2-final
+ 2243  ls
+ 2244  cd Govrnz.Registry.WebApi
+ 2245  ls
+ 2246  dotnet add package MediatR.Extensions.Microsoft.DependencyInjection --version 5.0.1-alpha-0002
+ 2247  dotnet add package Microsoft.AspNetCore.Mvc.Versioning --version 2.2.0
+ 2248  cd ..
+ 2249  git add .
+ 2250  git status
+ 2251  ls 
+ 2252  cd registry
+ 2253  cd Govrnz.Registry.WebApi
+ 2254  dotnet add package Swashbuckle.AspNetCore.Cli --version 2.4.0-beta1
+ 2255  dotnet add package Swashbuckle.AspNetCore.ReDoc --version 2.4.0
+ 2256  cd ..
+ 2257  cd add .
+ 2258  git add .
+ 2259  git coomit -m "Part 2 - Swagger Integration"
+ 2260  git coommit -m "Part 2 - Swagger Integration"
+ 2261  git commit -m "Part 2 - Swagger Integration"
+ 2262  git push
+ 2263  touch docker-compose.yml
+ 2264  touch docker-compose.dcproj
+ 2265  touch docker-compose.override.yml
+ 2266  history
+ 2267  history 0 .
+ 2268  history 0 
+ 2269  history 2000
+ 2270  history 3000
+ 2271  history 2200
+ 2272  history 1500
+ 2273  cd registry/Govrnz.Registry.WebApi
+ 2274  ls
+ 2275  docker build -t elCavernas/govrnza-webapi:multi-stage .
+ 2276  docker image build -t elCavernas/govrnza-webapi:multi-stage .
+ 2277  docker image build -t elcavernas/govrnza-webapi:multi-stage .
+ 2278  dotnet info
+ 2279  dotnet --info
+ 2280  docker image build -t elcavernas/govrnza-webapi:multi-stage .
+ 2281  cd ..
+ 2282  ls
+ 2283  dotnet restore ElCavernas.Govrnz.Registry.sln
+ 2284  dotnet restore
+ 2285  ls
+ 2286  cd Docker\ Compose
+ 2287  ls
+ 2288  docker image build -t elcavernas/govrnza-webapi:multi-stage .
+ 2289  cd ..
+ 2290  ls
+ 2291  docker image build -t elcavernas/govrnza-webapi:multi-stage .
+ 2292  images
+ 2293  docker images 
+ 2294  docker run -d elcavernas/govrnza-webapi 
+ 2295  docker run -d elcavernas/govrnza-webapi:multi-stage  
+ 2296  docker ps
+ 2297  docker ps -a
+ 2298  docker run -it elcavernas/govrnza-webapi:multi-stage  
+ 2299  dotnet publish -o /publish
+ 2300  cd /Users/syeremy/dev/projects/microservices/vanlightly/source/registry/Govrnz.Registry.WebApi/Govrnz.Registry.WebApi.csproj
+ 2301  /Users/syeremy/dev/projects/microservices/vanlightly/source/registry/Govrnz.Registry.WebApi/Govrnz.Registry.WebApi.csproj
+ 2302  "/Users/syeremy/dev/projects/microservices/vanlightly/source/registry/Govrnz.Registry.WebApi"
+ 2303  dotnet publish -o /publish
+ 2304  dotnet publish
+ 2305  docker image build -t elcavernas/govrnza-webapi:multi-stage .
+ 2306  docker run -it elcavernas/govrnza-webapi:multi-stage  
+ 2307  cd Docker\ Compose
+ 2308  docker-compose up -it
+ 2309  docker-compose up 
+ 2310  dotnet --info
+ 2311  docker ps
+ 2312  docker inspect 629da59b39a2 | jq
+ 2313  dotnet new >
+ 2314  dotnet new ?
+ 2315  dotnet new mvc -m ElCavernas.Demo
+ 2316  dotnet new mvc -n ElCavernas.Demo
+ 2317  ls
+ 2318  cd ElCavernas.Demo
+ 2319  ls
+ 2320  dotnet build
+ 2321  dotnet publish
+ 2322  cd bin/Debug/netcoreapp2.1/publish
+ 2323  ls
+ 2324  dotnet ElCavernas.Demo.dll
+ 2325  ls
+ 2326  cd ..
+ 2327  cat ElCavernas.Demo.csproj
+ 2328  docker run --rm -it -v `pwd`:/app  microsoft/dotnet:2.1.300-preview2-sdk-stretch
+ 2329  history
+ 2330  ps -a
+ 2331  docker ps -a
+ 2332  docker run --rm -it -v `pwd`:/app -p8080:80  microsoft/dotnet:2.1.300-preview2-sdk-stretch
+ 2333  docker run --rm -it -v `pwd`:/app -p8082:80  microsoft/dotnet:2.1.300-preview2-sdk-stretch
+ 2334  dotnet run
+ 2335  dotnet run 
+ 2336  history 1500f-v
+ 2337  dotnet --info
+ 2338  dotnet install tool dotnet-dev-certs -g --version 2.1.300-preview2-008533
+ 2339  dotnet install tool dotnet-dev-certs -g --version 2.1.300-preview2-008533
+ 2340  Install-Package dotnet-dev-certs -Version 2.1.0-preview1-final
+ 2341  dotnet add package dotnet-dev-certs --version 2.1.0-preview1-final
+ 2342  dotnet dev-certs https --trust
+ 2343  dotnet run 
+ 2344  touch Dockerfile
+ 2345  vim Dockerfile
+ 2346  cat Dockerfile
+ 2347  dotnet restore; dotnet publish
+ 2348  dotnet restore & dotnet publish
+ 2349  pwd
+ 2350  /Users/syeremy/dev/projects/pluralsight/docker/docker-aspnetcore/build-test/ElCavernas.Demo
+ 2351  docker events --format "{{json .}}" | jq
+ 2352  docket run -f nginx
+ 2353  docker run -f nginx
+ 2354  docker run -d nginx
+ 2355  docker rm a3674131f9d8df626f3a83e477bc66af05e3b60e0502188f720ec575dd55893a
+ 2356  docker rm -f a3674131f9d8df626f3a83e477bc66af05e3b60e0502188f720ec575dd55893a
+ 2357  docker build --rm=false --no-cache -t test .
+ 2358  vim Dockerfile 
+ 2359  docker build --rm=false --no-cache -t test .
+ 2360  docker ps -a
+ 2361  docker ps
+ 2362  docker image ls
+ 2363  touch .dockerignore.publish
+ 2364  touch .dockerignore
+ 2365  docker build test-build .
+ 2366  docker build -t test-build .
+ 2367  docker images ls
+ 2368  dockes image ls
+ 2369  docker images
+ 2370  docker image rm eb2e94cdf56c
+ 2371  docker inspect ba7e2780af84
+ 2372  docker inspect ba7e2780af84 | jq
+ 2373  docker ps
+ 2374  dockre ps -a
+ 2375  docker ps a
+ 2376  docker ps -a
+ 2377  docker rm -f $(docker ps -a -q)
+ 2378  docker ps -a
+ 2379  docker images 
+ 2380  docker images rm d8db5b68a7f2
+ 2381  docker images rm ?
+ 2382  docker images  -h
+ 2383  docker images rm d8db5b68a7f2
+ 2384  docker image ls
+ 2385  docker image rm d8db5b68a7f2
+ 2386  docker imag rm d8db5b68a7f2 8027cefea3b1 8027cefea3b1  8027cefea3b1 8027cefea3b1  336e495ce16e dc29582384c7
+ 2387  docker image rm d8db5b68a7f2 8027cefea3b1 8027cefea3b1  8027cefea3b1 8027cefea3b1  336e495ce16e dc29582384c7
+ 2388  docker images
+ 2389  docker image rm 869b5c51b21a  2d93b338de5d  c3910688c739 eb2e94cdf56c d3d7ddc6e966 44b44f2f0539 
+ 2390  docker images
+ 2391  cd ~/dev/projects/pluralsight/docker
+ 2392  ls
+ 2393  cd docker-aspnetcore
+ 2394  cd build-test
+ 2395  ls
+ 2396  cd ElCavernas.Demo
+ 2397  ls
+ 2398  docker build -t test-multi-stage -f Dockerfile 
+ 2399  docker build -t test-multi-stage .
+ 2400  docker images
+ 2401  docker image rm 381b0b0d8af3
+ 2402  docker images
+ 2403  docker run -it --rm -p 8080:80 test-multi-stage
+ 2404  docker build -t test-multi-stage .
+ 2405  docker run -it --rm -p 8080:80 test-multi-stage
+ 2406  pwd
+ 2407  /Users/syeremy/dev/projects/pluralsight/docker/docker-aspnetcore/build-test/ElCavernas.Demo
+ 2408  dotnet publish
+ 2409  cd bin/Debug/netcoreapp2.1/publish
+ 2410  dotnet ElCavernas.Demo.dll
+ 2411  cat Startup.cs
+ 2412  cd ..
+ 2413  dotnet new mvc -n ElcavernasDemo.NoHttps --no-https
+ 2414  cp ElCavernas.Demo/Dockerfile ElcavernasDemo.NoHttps
+ 2415  cd ElcavernasDemo.NoHttps
+ 2416  ls -l
+ 2417  cat Dockerfile
+ 2418  docker build -t test-multi-stage-no-https .
+ 2419  docker run -it --rm -p 8080:80 test-multi-stage-no-https
+ 2420  images
+ 2421  docker images
+ 2422  cd ,,
+ 2423  cd ..
+ 2424  cd ElcavernasDemo.NoHttps
+ 2425  dotnet run
+ 2426  docker run -it --rm -p 8080:80 test-multi-stage-no-https
+ 2427  docker run -it --rm -p 8080:80 test-multi-stage
+ 2428  docker build -t test-multi-stage-no-https .
+ 2429  docker run -it --rm -p 8080:80 test-multi-stage-no-https
+ 2430  docker ps
+ 2431  docker build -t test-multi-stage-no-https .
+ 2432  docker run -it --rm -p 8080:80 test-multi-stage-no-https
+ 2433  touch docker-compose.yml
+ 2434  code docker-compose.yml
+ 2435  docker-compose up 
+ 2436  docker-compose up -d
+ 2437  docker-compose logs
+ 2438  docker ps
+ 2439  docker-compose up
+ 2440  docker-compose ps
+ 2441  docker-compose down
+ 2442  docker-compose ps
+ 2443  docker-compose ps -a
+ 2444  docker-compose up -d
+ 2445  docker ls
+ 2446  docker ps
+ 2447  docker-compose down
+ 2448  docker ps
+ 2449  docker-compse down -f
+ 2450  docker-compose down -f
+ 2451  docker-compose down 
+ 2452  docker-compose down --remove-orphans
+ 2453  docker-compose down
+ 2454  docker ps
+ 2455  docker ps =a
+ 2456  docker ps -a
+ 2457  docker-compose up -d
+ 2458  dotnet add package Faker.Net --version 1.0.3
+ 2459  dotnet add package MailKit --version 2.0.3
+ 2460  docker-compose up -d --build
+ 2461  history
+ 2462  brew install homebrew/apache/ab
+ 2463  brew install ab
+ 2464  brew install apache/ab
+ 2465  curl -OL http://ftpmirror.gnu.org/libtool/libtool-2.4.2.tar.gz\ntar -xzf libtool-2.4.2.tar.gz\ncd libtool-2.4.2\n./configure && make && sudo make install
+ 2466  curl -O https://archive.apache.org/dist/httpd/httpd-2.4.2.tar.bz2\ntar zxvf httpd-2.4.2.tar.bz2\ncd httpd-2.4.2.tar.bz2\n./configure && make && make install
+ 2467  ab
+ 2468  dotnet new ?
+ 2469  dotnet new api
+ 2470  dotnet new ?
+ 2471  dotnet new webapi -n Syeremy.Swarm.Demo.Api --no-https
+ 2472  cd Syeremy.Swarm.Demo.Api
+ 2473  cd ..
+ 2474  dotnet new webapi -n ElCavernas.Swarm.Demo.Api --no-https
+ 2475  cd ElCavernas.Swarm.Demo.Api
+ 2476  dotnet run
+ 2477  ab -n 100 http://localhost:5000/api/values/
+ 2478  ab -n 10000 http://localhost:5000/api/values/
+ 2479  ab -n -c 10 10000 http://localhost:5000/api/values/
+ 2480  ab  -c 10 -n 10000 http://localhost:5000/api/values/
+ 2481  docker network ls]
+ 2482  docker network ls
+ 2483  docker network prone
+ 2484  docker network prune
+ 2485  pwd
+ 2486  /Users/syeremy/dev/projects/pluralsight/docker-swarm/getting-started-wes/source/ElCavernas.Swarm.Demo.Api
+ 2487  cd ..
+ 2488  cd original-source
+ 2489  ls
+ 2490  cd services
+ 2491  ls
+ 2492  clear
+ 2493  docker info | jw
+ 2494  docker info | jq
+ 2495  docker info 
+ 2496  docker swarm init
+ 2497  docker node -h
+ 2498  docker ls
+ 2499  docker node ls
+ 2500  docker node inspect self
+ 2501  docker node inspect self | jq
+ 2502  /Users/syeremy/dev/projects/pluralsight/docker-swarm/getting-started-wes/source/ElCavernas.Swarm.Demo.A
+ 2503  ifconfig
+ 2504  docker service -h
+ 2505  docekr service create -h
+ 2506  docker service create --name web nginx -p 8080:80
+ 2507  docker ps
+ 2508  docker-compose down
+ 2509  ls
+ 2510  docker-compose down
+ 2511  docker ps
+ 2512  docker service ps zrr1ontlk9q74re1bfygy8gxr
+ 2513  docker ps
+ 2514  docker service ps zrr1ontlk9q74re1bfygy8gxr
+ 2515  docker service ls
+ 2516  docker service rm web
+ 2517  docker service ls
+ 2518  docker service create --name web -p 8080:80  nginx 
+ 2519  docker ps
+ 2520  docker service ls
+ 2521  docker service ps web
+ 2522  docker service rm web
+ 2523  docker ps
+ 2524  docker service create --name web -p 8080:80 gninx
+ 2525  docker service create --name web -p 8080:80 nginx
+ 2526  docker service ps
+ 2527  docker service ls
+ 2528  docker rm web
+ 2529  docker service rm we
+ 2530  docker service rm web
+ 2531  docker service create --name web -p 8080:80 nginx
+ 2532  docker service ps we
+ 2533  docker service ps web
+ 2534  docker service update --replicas=4  web 
+ 2535  docker service ps web
+ 2536  docker service scale web=6
+ 2537  docker service ps web
+ 2538  docker ps
+ 2539  docker ps 164daff10992
+ 2540  dcoker stop 164daff10992
+ 2541  docker stop 164daff10992
+ 2542  docker service ps web
+ 2543  docker service -h
+ 2544  docker sercice rm web
+ 2545  docekr service rm we
+ 2546  docekr service rm web
+ 2547  docker service rm web
+ 2548  docker service ls
+ 2549  docker service create --name customer-api -p 3000:3000 swarmgs/customer
+ 2550  docker service ls
+ 2551  ab -n 1000 -c 4 http://localhost:3000/customer/1
+ 2552  docker service scale customer-api=2
+ 2553  ab -n 1000 -c 4 http://localhost:3000/customer/1
+ 2554  docker service scale customer-api=6
+ 2555  ab -n 1000 -c 4 http://localhost:3000/customer/1
+ 2556  docker service ls
+ 2557  docker service rm customer-api
+ 2558  docker node ls
+ 2559  docker swarm leave -h
+ 2560  docker swarm leave --force
+ 2561  docker info 
+ 2562  docker images prune
+ 2563  docker container prune
+ 2564  vegrant
+ 2565  vagramt
+ 2566  vagrant
+ 2567  ssh syeremy@172.16.56.128
+ 2568  ifconfig
+ 2569  ssh syeremy@192.168.1.10
+ 2570  ssh syeremy@172.16.56.128
+ 2571  ssh syeremy@192.168.1.10
+ 2572  ls -la
+ 2573  cd .ssh
+ 2574  ls la
+ 2575  la
+ 2576  ls
+ 2577  cat known_hosts
+ 2578  touch config
+ 2579  vim config
+ 2580  ssh m1
+ 2581  ssh-keygen
+ 2582  ls -la
+ 2583  ssh-copy-id -i id_rsa.pub 192.168.1.15
+ 2584  ssh m1
+ 2585  vim config
+ 2586  ssh w2
+ 2587  ssh-copy-id -i id_rsa.pub 192.168.1.10
+ 2588  ssh m2
+ 2589  ssh m3
+ 2590  ssh-copy-id -i id_rsa.pub 192.168.1.11
+ 2591  ssh m3
+ 2592  ssh w1
+ 2593  ssh-copy-id -i id_rsa.pub 192.168.1.12
+ 2594  ssh w1
+ 2595  ssh w2
+ 2596  ssh-copy-id -i id_rsa.pub 192.168.1.13
+ 2597  ssh w2
+ 2598  ssh w3
+ 2599  ssh-copy-id -i id_rsa.pub 192.168.1.14
+ 2600  cat known_hosts
+ 2601  ssh m1
+ 2602  ssh w1
+ 2603  ssh w2
+ 2604  ssh w3
+ 2605  ssh m2
+ 2606  ssh m3
+ 2607  history
+ 2608  ab -m 1000 -c 6 http://192.168.1.15:3000/customer/1
+ 2609  ab -n 1000 -c 6 http://192.168.1.15:3000/customer/1
+ 2610  ab -n 1000 -c 12  http://192.168.1.15:3000/customer/1
+ 2611  ab -n 5000 -c 12  http://192.168.1.15:3000/customer/1
+ 2612  history
+ 2613  brew install watch
+ 2614  sudo brew install watch
+ 2615  brew install watch
+ 2616  xcode-select --install
+ 2617  brew install watch
+ 2618  watch docker service ls
+ 2619  watch docker ps
+ 2620  touch viz.yml
+ 2621  scp viz.yml syeremy@192.168.1.15:/yere/viz.yml
+ 2622  scp viz.yml syeremy@192.168.1.15:/yere
+ 2623  scp viz.yml syeremy@192.168.1.15:yere
+ 2624  scp api.yml syeremy@192.168.1.15:yere
+ 2625  scp apis.yml syeremy@192.168.1.15:yere
+ 2626  scp cowsay.yml syeremy@192.168.1.15:yere
+ 2627  docker secrets -h
+ 2628  echosupersecretpassword | docker secret create mysql_root_pass
+ 2629  ssh mrg1
+ 2630  history
+ 2631  ssh m1
+ 2632  echosupersecretpassword | docker secret create mysql_root_pass
+ 2633  docker swarm ls
+ 2634  docker node ls
+ 2635  ssh m1
+ 2636* pwd
+ 2637  /Users/syeremy/dev/projects/pluralsight/docker-swarm/getting-started-wes/source/stacks/services
+ 2638  history
+ 2639  scp mysql_with_secrets.yml syeremy@192.168.1.15:yere
+ 2640* ssh m2
+ 2641  scp syeremy@192.168.1.15:yere/mysql_with_secrets.yml .
+ 2642  scp syeremy@192.168.1.15:yere/history.txt .

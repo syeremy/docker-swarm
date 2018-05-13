@@ -1,0 +1,12 @@
+version: '3.6'
+
+services: 
+    viz2: 
+        image: manomarks:visualizer
+        volumes:
+            - "/var/run/docker.sock:/var/run/docker.sock"
+        deploy:
+            placement:
+                constraints:
+                    - node.role==manager
+            
